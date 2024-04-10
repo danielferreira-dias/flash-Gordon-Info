@@ -1294,7 +1294,7 @@
                                                 "Aposta Máxima:"
                                             ]
                                         },
-                                        "value": " 20.00"
+                                        "value": " 10.00"
                                     },
                                     {
                                         "valueType": "puntataMinimaGoldenBet",
@@ -1462,6 +1462,198 @@
                                             ]
                                         },
                                         "value": "25000"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": {
+                    "EN": "V-POWER",
+                    "RU": "V-POWER",
+                    "FR": "V-POWER",
+                    "ZH": "V-POWER",
+                    "US": "V-POWER",
+                    "PT": "V-POWER",
+                    "IT": "V-POWER"
+                },
+                "sectionType": "Feature",
+                "Type": "Title",
+                "SubSection": [
+                    {
+                        "typeDisplay": "flex",
+                        "direction": "column",
+                        "justifyContent": "center",
+                        "features": [
+                            {
+                                "typeDisplay": "flex",
+                                "direction": "column",
+                                "featureContent": [
+                                    {
+                                        "type": "plural_text",
+                                        "textAlignment": "center",
+                                        "content": {
+                                            "EN": [
+                                                "Using the V-POWER feature during the main game allows players to customize the game's volatility, offering three distinct levels: LOW, MEDIUM, and HIGH."
+                                            ],
+                                            "IT": [
+                                                "Utilizzando la funzione V-POWER durante il gioco principale, i giocatori possono personalizzare la volatilità del gioco, offrendo tre livelli distinti: BASSO, MEDIO e ALTO."
+                                            ],
+                                            "RU": [
+                                                "Использование функции V-POWER во время основной игры позволяет игрокам настраивать волатильность игры, предлагая три различных уровня: НИЗКИЙ, СРЕДНИЙ и ВЫСОКИЙ."
+                                            ],
+                                            "FR": [
+                                                "En utilisant la fonction V-POWER pendant le jeu principal, les joueurs peuvent personnaliser la volatilité du jeu, offrant trois niveaux distincts : FAIBLE, MOYEN et ÉLEVÉ."
+                                            ],
+                                            "ZH": [
+                                                "在主游戏期间使用 V-POWER 功能，玩家可以自定义游戏的波动性，提供三个不同的级别：低、中和高。"
+                                            ],
+                                            "US": [
+                                                "Using the V-POWER feature during the main game allows players to customize the game's volatility, offering three distinct levels: LOW, MEDIUM, and HIGH."
+                                            ],
+                                            "PT": [
+                                                "Ao utilizar a funcionalidade V-POWER durante o jogo principal, os jogadores podem personalizar a volatilidade do jogo, oferecendo três níveis distintos: BAIXO, MÉDIO e ALTO."
+                                            ]
+                                        },
+                                        "direction": "column",
+                                        "customFormat": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "typeDisplay": "flex",
+                                "direction": "row",
+                                "featureContent": [
+                                    {
+                                        "type": "img_text",
+                                        "imageType": "big",
+                                        "divMaxWith": "smallMaxWidth",
+                                        "url": [
+                                            "images/Settings/Assets/LOW.png"
+                                        ],
+                                        "textAlignment": "center",
+                                        "hasSpecialData": true,
+                                        "data": [
+                                            {
+                                                "multipliers": "",
+                                                "value": "",
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "This mode combines elements of HIGH and LOW volatility, catering to players aiming for substantial rewards with reasonable frequency"
+                                                        ],
+                                                        "IT": [
+                                                            "Questo modo combina elementi di alta e bassa volatilità, rivolgendosi ai giocatori che mirano a ricompense sostanziali con una frequenza ragionevole."
+                                                        ],
+                                                        "RU": [
+                                                            "Этот режим сочетает в себе элементы высокой и низкой волатильности, обеспечивая игроков, стремящихся к значительным наградам с разумной частотой."
+                                                        ],
+                                                        "FR": [
+                                                            "Ce mode combine des éléments de volatilité élevée et faible, s'adressant aux joueurs visant des récompenses substantielles avec une fréquence raisonnable."
+                                                        ],
+                                                        "ZH": [
+                                                            "此模式结合了高和低波动性的元素，适合寻求合理频率下丰厚回报的玩家。"
+                                                        ],
+                                                        "US": [
+                                                            "This mode combines elements of HIGH and LOW volatility, catering to players aiming for substantial rewards with reasonable frequency"
+                                                        ],
+                                                        "PT": [
+                                                            "Este modo combina elementos de alta e baixa volatilidade, atendendo aos jogadores que buscam recompensas substanciais com uma frequência razoável."
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "direction": "column",
+                                        "contentDirection": "column"
+                                    },
+                                    {
+                                        "type": "img_text",
+                                        "imageType": "big",
+                                        "divMaxWith": "smallMaxWidth",
+                                        "url": [
+                                            "images/Settings/Assets/MEDIUM.png"
+                                        ],
+                                        "textAlignment": "center",
+                                        "hasSpecialData": true,
+                                        "data": [
+                                            {
+                                                "multipliers": "",
+                                                "value": "",
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "In this settings, payouts occur more frequently, typically in smaller ammounts, making it ideal for players seeking longer gaming sessions."
+                                                        ],
+                                                        "IT": [
+                                                            "In questa configurazione, le vincite avvengono più frequentemente, di solito in importi più piccoli, rendendola ideale per i giocatori che cercano sessioni di gioco più lunghe."
+                                                        ],
+                                                        "RU": [
+                                                            "В этом режиме выплаты происходят чаще, обычно в небольших суммах, что делает его идеальным для игроков, которые предпочитают более длительные игровые сессии."
+                                                        ],
+                                                        "FR": [
+                                                            "Dans ce paramètre, les paiements se produisent plus fréquemment, généralement en petites quantités, ce qui en fait un choix idéal pour les joueurs recherchant des sessions de jeu plus longues."
+                                                        ],
+                                                        "ZH": [
+                                                            "在这种设置下，支付发生得更频繁，通常是较小的金额，非常适合寻找更长游戏时间的玩家。"
+                                                        ],
+                                                        "US": [
+                                                            "In this settings, payouts occur more frequently, typically in smaller ammounts, making it ideal for players seeking longer gaming sessions."
+                                                        ],
+                                                        "PT": [
+                                                            "Nessa configuração, os pagamentos ocorrem com mais frequência, geralmente em quantidades menores, tornando-a ideal para jogadores que procuram sessões de jogo mais longas."
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "direction": "column",
+                                        "contentDirection": "column"
+                                    },
+                                    {
+                                        "type": "img_text",
+                                        "imageType": "big",
+                                        "divMaxWith": "smallMaxWidth",
+                                        "url": [
+                                            "images/Settings/Assets/HIGH.png"
+                                        ],
+                                        "textAlignment": "center",
+                                        "hasSpecialData": true,
+                                        "data": [
+                                            {
+                                                "multipliers": "",
+                                                "value": "",
+                                                "specialContent": [
+                                                    {
+                                                        "EN": [
+                                                            "Players have the opportunity to win big prizes, though less often than in LOW volatility. It's suitable for risk-takers aiming for significant wins."
+                                                        ],
+                                                        "IT": [
+                                                            "In questa configurazione, le vincite avvengono più frequentemente, di solito in importi più piccoli, rendendola ideale per i giocatori che cercano sessioni di gioco più lunghe."
+                                                        ],
+                                                        "RU": [
+                                                            "У игроков есть возможность выиграть крупные призы, хотя и реже, чем при низкой волатильности. Это подходит для рискованных игроков, нацеленных на значительные победы."
+                                                        ],
+                                                        "FR": [
+                                                            "Les joueurs ont l'opportunité de remporter de gros prix, bien que moins souvent que dans la volatilité faible. C'est adapté aux amateurs de risques visant des gains importants."
+                                                        ],
+                                                        "ZH": [
+                                                            "玩家有机会赢得大奖，尽管比低波动性时更少。适合寻求重大胜利的冒险家。"
+                                                        ],
+                                                        "US": [
+                                                            "Players have the opportunity to win big prizes, though less often than in LOW volatility. It's suitable for risk-takers aiming for significant wins."
+                                                        ],
+                                                        "PT": [
+                                                            "Os jogadores têm a oportunidade de ganhar grandes prêmios, embora menos frequentemente do que na baixa volatilidade. É adequado para os apostadores que buscam vitórias significativas."
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "direction": "column",
+                                        "contentDirection": "column"
                                     }
                                 ]
                             }
@@ -2171,7 +2363,14 @@
                                         "Type": "text",
                                         "Text": "The Max win is ",
                                         "value": "20,000x"
-                                    },
+                                    }
+                                ]
+                            },
+                            {
+                                "typeDisplay": "flex",
+                                "direction": "row",
+                                "divMaxWith": "smallMaxWidth",
+                                "featureContent": [
                                     {
                                         "type": "divContent",
                                         "numberOfDivs": 4,
