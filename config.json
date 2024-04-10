@@ -1137,170 +1137,94 @@
             },
             {
                 "Title": {
-                    "EN": "LINE LAYOUT",
-                    "RU": "РНСПОЛОЖЕНИЕ ЛИНИИ",
-                    "FR": "DISPOSITION DES LIGNES",
-                    "ZH": "线路布局",
-                    "US": "LINE LAYOUT",
-                    "PT": "LAYOUT DA LINHA",
-                    "IT": "LAYOUT DELLE LINEE"
+                    "EN": "WAYS",
+                    "RU": "WAYS",
+                    "FR": "WAYS",
+                    "ZH": "WAYS",
+                    "US": "WAYS",
+                    "PT": "WAYS",
+                    "IT": "WAYS"
                 },
-                "sectionType": "lineLayout",
+                "sectionType": "Feature",
                 "Type": "Title",
                 "SubSection": [
                     {
-                        "Layout": "grid",
-                        "displayContent": [
+                        "typeDisplay": "flex",
+                        "direction": "column",
+                        "justifyContent": "center",
+                        "features": [
                             {
-                                "Layout": "flex",
-                                "layoutStyle": "flex-direction: row;",
-                                "lineRows": 3,
-                                "lineCols": 5,
-                                "lines": {
-                                    "formation": [
-                                        [
-                                            1,
-                                            1,
-                                            1,
-                                            1,
-                                            1
+                                "typeDisplay": "flex",
+                                "direction": "column",
+                                "featureContent": [
+                                    {
+                                        "type": "img",
+                                        "divMaxWith": "bigMaxWidth",
+                                        "imageType": "big",
+                                        "wrap": "wrap",
+                                        "url": [
+                                            "images/Settings/Assets/WAYS_LOSE.png",
+                                            "images/Settings/Assets/WAYS_WIN.png"
                                         ],
-                                        [
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            0
-                                        ],
-                                        [
-                                            2,
-                                            2,
-                                            2,
-                                            2,
-                                            2
-                                        ],
-                                        [
-                                            0,
-                                            1,
-                                            2,
-                                            1,
-                                            0
-                                        ],
-                                        [
-                                            2,
-                                            1,
-                                            0,
-                                            1,
-                                            2
-                                        ],
-                                        [
-                                            1,
-                                            0,
-                                            0,
-                                            0,
-                                            1
-                                        ],
-                                        [
-                                            1,
-                                            2,
-                                            2,
-                                            2,
-                                            1
-                                        ],
-                                        [
-                                            0,
-                                            0,
-                                            1,
-                                            2,
-                                            2
-                                        ],
-                                        [
-                                            2,
-                                            2,
-                                            1,
-                                            0,
-                                            0
-                                        ],
-                                        [
-                                            1,
-                                            0,
-                                            1,
-                                            2,
-                                            1
-                                        ],
-                                        [
-                                            1,
-                                            2,
-                                            1,
-                                            0,
-                                            1
-                                        ],
-                                        [
-                                            0,
-                                            1,
-                                            1,
-                                            1,
-                                            0
-                                        ],
-                                        [
-                                            2,
-                                            1,
-                                            1,
-                                            1,
-                                            2
-                                        ],
-                                        [
-                                            0,
-                                            1,
-                                            0,
-                                            1,
-                                            0
-                                        ],
-                                        [
-                                            2,
-                                            1,
-                                            2,
-                                            1,
-                                            2
-                                        ]
-                                    ]
-                                }
-                            }
-                        ],
-                        "lineTextContent": [
+                                        "direction": "row"
+                                    }
+                                ]
+                            },
                             {
-                                "textSize": "1.5em",
-                                "listType": "p",
-                                "content": {
-                                    "EN": [
-                                        "All winning combinations are paid from left to right except the FREE SPINS. In the case where the WILD symbol creates multiple prize combinations within the same winning line, only the most beneficial win for the player is awarded. In case of combinations consisting exclusively of WILD symbols, it will be paid as the highest symbol...",
-                                        "Any malfunctions will cancel all bets and payouts."
-                                    ],
-                                    "IT": [
-                                        "Tutte le combinazioni vincenti vengono pagate da sinistra a destra eccetto FREE SPINS. Nel caso in cui il simbolo WILD crei più combinazioni vincenti all'interno della stessa linea vincente, verrà assegnata solo la vincita più vantaggiosa per il giocatore. In caso di combinazioni composte esclusivamente da simboli WILD, verrà pagata come il simbolo più alto...",
-                                        "Qualsiasi malfunzionamento annullerà tutte le scommesse e i pagamenti."
-                                    ],
-                                    "RU": [
-                                        "Вѝе выигрышные комбинации оплачиваютѝѝ ѝлева направо, за иѝключением FREE SPINS. В ѝлучае, еѝли ѝимвол WILD ѝоздает неѝколько выигрышных комбинаций в пределах одной и той же выигрышной линии, будет начиѝлена только наиболее выгоднаѝ победа длѝ игрока. В ѝлучае комбинаций, ѝоѝтоѝщих иѝключительно из ѝимволов WILD, она будет оплачена как наивыѝший ѝимвол...",
-                                        "Любые ѝбои отменѝт вѝе ѝтавки и выплаты."
-                                    ],
-                                    "FR": [
-                                        "Toutes les combinaisons gagnantes sont payées de gauche à droite, sauf FREE SPINS. Dans le cas où le symbole WILD crée plusieurs combinaisons gagnantes sur la même ligne de gain, seule la victoire la plus bénéfique pour le joueur est attribuée. En cas de combinaisons composées exclusivement de symboles WILD, elle sera payée comme le symbole le plus élevé...",
-                                        "Tout dysfonctionnement annulera toutes les mises et les gains."
-                                    ],
-                                    "ZH": [
-                                        "除了 FREE SPINS 外，所有获奖组坈都是从左到坳支付。如果野外符坷在坌一条获奖线上创建多个奖励组坈，则仅授予玩家最有利的胜利。如果组坈仅由野外符坷组戝，则将按照最高符坷支付...",
-                                        "任何故障都将坖消所有的投注和支付。"
-                                    ],
-                                    "US": [
-                                        "All winning combinations are paid from left to right except FREE SPINS. In the case where the WILD symbol creates multiple prize combinations within the same winning line, only the most beneficial win for the player is awarded. In case of combinations consisting exclusively of WILD symbols, it will be paid as the highest symbol...",
-                                        "Any malfunctions will cancel all bets and payouts."
-                                    ],
-                                    "PT": [
-                                        "Todas as combinações vencedoras são pagas da esquerda para a direita, exceto FREE SPINS. No caso em que o símbolo WILD cria múltiplas combinações vencedoras dentro da mesma linha de vitória, apenas a vitória mais benéfica para o jogador é premiada. No caso de combinações consistindo exclusivamente de símbolos WILD, será pago como o símbolo mais alto...",
-                                        "Quaisquer falhas cancelarão todas as apostas e pagamentos."
-                                    ]
-                                }
+                                "typeDisplay": "flex",
+                                "direction": "column",
+                                "featureContent": [
+                                    {
+                                        "type": "plural_text",
+                                        "textAlignment": "center",
+                                        "content": {
+                                            "EN": [
+                                                "Flash Gordon is a slot game with 6 reels and 4096 ways to win.",
+                                                "\nEvery winning combination of matching symbols generates a winning way by aligning symbols on adjacent reels from left to right, starting from the leftmost reel.",
+                                                "\nPlease refer to the paytable for the specific number of each symbol required to win. Only the highest win per winning way is awarded.",
+                                                "\nIn the case where the WILD symbol creates multiple prize combinations within the same winning line, only the most beneficial win for the player is awarded."
+                                            ],
+                                            "IT": [
+                                                "Flash Gordon è un gioco di slot con 6 rulli e 4096 modi per vincere.",
+                                                "Ogni combinazione vincente di simboli corrispondenti genera una via vincente allineando i simboli sui rulli adiacenti da sinistra a destra, a partire dal rullo più a sinistra.",
+                                                "Consultare la tabella dei pagamenti per il numero specifico di ciascun simbolo richiesto per vincere. Viene assegnata solo la vincita più alta per via vincente.",
+                                                "Nel caso in cui il simbolo WILD crei più combinazioni vincenti nella stessa linea vincente, viene assegnata solo la vincita più vantaggiosa per il giocatore."
+                                            ],
+                                            "RU": [
+                                                "Flash Gordon - игровой автомат с 6 барабанами и 4096 способами выиграть.",
+                                                "Каждая выигрышная комбинация одинаковых символов создает выигрышную линию, выстраивая символы на соседних барабанах слева направо, начиная с самого левого барабана.",
+                                                "Для получения выигрыша обратитесь к таблице выплат для определения необходимого количества каждого символа. Награда присуждается только за самую высокую выигрышную линию.",
+                                                "Если символ WILD создает несколько выигрышных комбинаций в одной и той же выигрышной линии, игроку присуждается только наиболее выгодный выигрыш."
+                                            ],
+                                            "FR": [
+                                                "Flash Gordon est une machine à sous avec 6 rouleaux et 4096 façons de gagner.",
+                                                "Chaque combinaison gagnante de symboles identiques génère une ligne gagnante en alignant les symboles sur les rouleaux adjacents de gauche à droite, à partir du rouleau le plus à gauche.",
+                                                "Consultez la table des paiements pour connaître le nombre spécifique de chaque symbole requis pour gagner. Seule la plus haute victoire par ligne gagnante est attribuée.",
+                                                "Dans le cas où le symbole WILD crée plusieurs combinaisons gagnantes dans la même ligne gagnante, seule la victoire la plus bénéfique pour le joueur est attribuée."
+                                            ],
+                                            "ZH": [
+                                                "Flash Gordon 是一款拥有6个转轴和4096种赢取方式的老虎机游戏。",
+                                                "每个相同符号的获胜组合通过将符号对齐在相邻的转轴上，从左到右开始，从最左侧的转轴开始，生成一个获胜方式。",
+                                                "请查看支付表以了解每个符号所需的特定数量以获胜。每个获胜方式仅奖励最高的获胜。",
+                                                "如果WILD符号在同一条获胜线上创建多个获胜组合，则仅奖励对玩家最有利的获胜。"
+                                            ],
+                                            "US": [
+                                                "Flash Gordon is a slot game with 6 reels and 4096 ways to win.",
+                                                "\nEvery winning combination of matching symbols generates a winning way by aligning symbols on adjacent reels from left to right, starting from the leftmost reel.",
+                                                "\nPlease refer to the paytable for the specific number of each symbol required to win. Only the highest win per winning way is awarded.",
+                                                "\nIn the case where the WILD symbol creates multiple prize combinations within the same winning line, only the most beneficial win for the player is awarded."
+                                            ],
+                                            "PT": [
+                                                "Flash Gordon é um jogo de slot com 6 rolos e 4096 maneiras de ganhar.",
+                                                "Cada combinação vencedora de símbolos correspondentes gera uma linha vencedora alinhando os símbolos nos rolos adjacentes da esquerda para a direita, começando pelo rolo mais à esquerda.",
+                                                "Consulte a tabela de pagamentos para o número específico de cada símbolo necessário para ganhar. Apenas a maior vitória por linha vencedora é concedida.",
+                                                "No caso em que o símbolo WILD cria várias combinações vencedoras na mesma linha vencedora, apenas a vitória mais vantajosa para o jogador é concedida."
+                                            ]
+                                        },
+                                        "direction": "column",
+                                        "customFormat": ""
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -1373,6 +1297,50 @@
                                         "value": " 20.00"
                                     },
                                     {
+                                        "valueType": "puntataMinimaGoldenBet",
+                                        "Type": "text",
+                                        "content": {
+                                            "EN": [
+                                                "Minimum GOLDEN Bet:"
+                                            ],
+                                            "IT": [
+                                                "Puntata GOLDEN Minima:"
+                                            ],
+                                            "RU": [
+                                                "Минимальнаѝ GOLDEN ѝтавка:"
+                                            ],
+                                            "ZH": [
+                                                "最低投注："
+                                            ],
+                                            "PT": [
+                                                "Aposta GOLDEN Mínima:"
+                                            ]
+                                        },
+                                        "value": " 1.40"
+                                    },
+                                    {
+                                        "valueType": "puntataMaximaGoldenBet",
+                                        "Type": "text",
+                                        "content": {
+                                            "EN": [
+                                                "Max GOLDEN bet:"
+                                            ],
+                                            "IT": [
+                                                "PuntataGOLDEN Massima:"
+                                            ],
+                                            "RU": [
+                                                "Макѝимальнаѝ GOLDEN ѝтавка:"
+                                            ],
+                                            "ZH": [
+                                                "最大投注："
+                                            ],
+                                            "PT": [
+                                                "Aposta GOLDEN Máxima:"
+                                            ]
+                                        },
+                                        "value": "70.00"
+                                    },
+                                    {
                                         "valueType": "maxWinValue",
                                         "Type": "text",
                                         "content": {
@@ -1392,7 +1360,7 @@
                                                 "O ganho máximo é "
                                             ]
                                         },
-                                        "value": " 5,000"
+                                        "value": " 25,000"
                                     },
                                     {
                                         "valueType": "rtpValue",
@@ -1414,7 +1382,38 @@
                                                 "Este jogo tem um RTP teórico de:"
                                             ]
                                         },
-                                        "value": "93.95%"
+                                        "value": {
+                                            "EN": [
+                                                "LOW VOTALITY: 93,69%",
+                                                "MEDIUM VOLATILITY: 93,70%",
+                                                "HIGH VOLATILITY: 93,73%",
+                                                "GOLDEN BET: 93,75%"
+                                            ],
+                                            "IT": [
+                                                "LOW VOTALITY: 93,69%",
+                                                "MEDIUM VOLATILITY: 93,70%",
+                                                "HIGH VOLATILITY: 93,73%",
+                                                "GOLDEN BET: 93,75%"
+                                            ],
+                                            "RU": [
+                                                "LOW VOTALITY: 93,69%",
+                                                "MEDIUM VOLATILITY: 93,70%",
+                                                "HIGH VOLATILITY: 93,73%",
+                                                "GOLDEN BET: 93,75%"
+                                            ],
+                                            "ZH": [
+                                                "LOW VOTALITY: 93,69%",
+                                                "MEDIUM VOLATILITY: 93,70%",
+                                                "HIGH VOLATILITY: 93,73%",
+                                                "GOLDEN BET: 93,75%"
+                                            ],
+                                            "PT": [
+                                                "LOW VOTALITY: 93,69%",
+                                                "MEDIUM VOLATILITY: 93,70%",
+                                                "HIGH VOLATILITY: 93,73%",
+                                                "GOLDEN BET: 93,75%"
+                                            ]
+                                        }
                                     },
                                     {
                                         "Type": "text",
@@ -1441,28 +1440,28 @@
                                         "Type": "text",
                                         "content": {
                                             "EN": [
-                                                "The maximum value of the prize is limited to 5.000x the bet in both the main game and FREE SPINS. If the prize of the total rounds hits 5,000x the bet, the round finishes. The prize is awarded and all the FREE SPINS left are removed."
+                                                "The maximum value of the prize is limited to 25.000x the bet in both the main game and FREE SPINS. If the prize of the total rounds hits 5,000x the bet, the round finishes. The prize is awarded and all the FREE SPINS left are removed."
                                             ],
                                             "IT": [
-                                                "Il valore massimo del premio è limitato a 5.000x volte la puntata sia nel gioco principale che nei FREE SPINS. Se il premio delle giocate totali raggiunge 5.000 volte la puntata, la partita termina. Il premio viene assegnato e tutti i FREE SPINS rimasti vengono rimossi."
+                                                "Il valore massimo del premio è limitato a 25.000x volte la puntata sia nel gioco principale che nei FREE SPINS. Se il premio delle giocate totali raggiunge 5.000 volte la puntata, la partita termina. Il premio viene assegnato e tutti i FREE SPINS rimasti vengono rimossi."
                                             ],
                                             "RU": [
-                                                "Макѝимальнаѝ ѝумма выигрыша ограничена 5.000x раз ѝтавка как в оѝновной игре, так и в FREE SPINS. Еѝли выигрыш от общего количеѝтва ѝпинов доѝтигает 5 000 раз ѝтавка, раунд завершаетѝѝ. Выигрыш начиѝлѝетѝѝ, и вѝе оѝтавшиеѝѝ FREE SPINS удалѝютѝѝ."
+                                                "Макѝимальнаѝ ѝумма выигрыша ограничена 25.000x раз ѝтавка как в оѝновной игре, так и в FREE SPINS. Еѝли выигрыш от общего количеѝтва ѝпинов доѝтигает 5 000 раз ѝтавка, раунд завершаетѝѝ. Выигрыш начиѝлѝетѝѝ, и вѝе оѝтавшиеѝѝ FREE SPINS удалѝютѝѝ."
                                             ],
                                             "FR": [
-                                                "La valeur maximale du prix est limitée à 5.000x fois la mise à la fois dans le jeu principal et dans les FREE SPINS. Si le prix des tours totaux atteint 5 000 fois la mise, le tour se termine. Le prix est attribué et tous les FREE SPINS restants sont supprimés."
+                                                "La valeur maximale du prix est limitée à 25.000x fois la mise à la fois dans le jeu principal et dans les FREE SPINS. Si le prix des tours totaux atteint 5 000 fois la mise, le tour se termine. Le prix est attribué et tous les FREE SPINS restants sont supprimés."
                                             ],
                                             "ZH": [
-                                                "奖金的最大值在主游戝和 FREE SPINS 中均陝制为 5.000x 倝的赌注。如果总轮次的奖金达到了 5,000 倝的赌注，游戝将结束。奖金将被授予，并且所有剩余的 FREE SPINS 将被移除。"
+                                                "奖金的最大值在主游戝和 FREE SPINS 中均陝制为 25.000x 倝的赌注。如果总轮次的奖金达到了 5,000 倝的赌注，游戝将结束。奖金将被授予，并且所有剩余的 FREE SPINS 将被移除。"
                                             ],
                                             "US": [
-                                                "The maximum value of the prize is limited to 5.000x the bet in both the main game and FREE SPINS. If the prize of the total rounds hits 5,000x the bet, the round finishes. The prize is awarded and all the FREE SPINS left are removed."
+                                                "The maximum value of the prize is limited to 25.000x the bet in both the main game and FREE SPINS. If the prize of the total rounds hits 5,000x the bet, the round finishes. The prize is awarded and all the FREE SPINS left are removed."
                                             ],
                                             "PT": [
-                                                "O valor máximo do prêmio é limitado a 5.000x vezes a aposta, tanto no jogo principal quanto nos FREE SPINS. Se o prêmio dos giros totais atingir 5.000 vezes a aposta, o giro termina. O prêmio é concedido e todos os FREE SPINS restantes são removidos."
+                                                "O valor máximo do prêmio é limitado a 25.000x vezes a aposta, tanto no jogo principal quanto nos FREE SPINS. Se o prêmio dos giros totais atingir 5.000 vezes a aposta, o giro termina. O prêmio é concedido e todos os FREE SPINS restantes são removidos."
                                             ]
                                         },
-                                        "value": "5000"
+                                        "value": "25000"
                                     }
                                 ]
                             }
