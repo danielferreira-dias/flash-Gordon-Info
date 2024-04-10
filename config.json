@@ -1663,6 +1663,128 @@
             },
             {
                 "Title": {
+                    "EN": "SUPER STACK",
+                    "RU": "SUPER STACK",
+                    "FR": "SUPER STACK",
+                    "ZH": "SUPER STACK",
+                    "US": "SUPER STACK",
+                    "PT": "SUPER STACK",
+                    "IT": "SUPER STACK"
+                },
+                "sectionType": "Feature",
+                "Type": "Title",
+                "SubSection": [
+                    {
+                        "typeDisplay": "flex",
+                        "direction": "column",
+                        "justifyContent": "center",
+                        "features": [
+                            {
+                                "typeDisplay": "flex",
+                                "direction": "column",
+                                "featureContent": [
+                                    {
+                                        "type": "plural_text",
+                                        "textAlignment": "center",
+                                        "content": {
+                                            "EN": [
+                                                "When a stacked symbol lands on a reel, it can occupy two or more consecutive positions vertically. This means that a single pin can result in multiple instances of the same symbol, appearing in a reel. These symbols usually come in groups of 2,3 or 4 symbols."
+                                            ],
+                                            "IT": [
+                                                "Quando un simbolo in stack atterra su un rullo, può occupare due o più posizioni consecutive verticalmente. Questo significa che un singolo spin può risultare in molteplici istanze dello stesso simbolo, apparendo in un rullo. Questi simboli di solito arrivano in gruppi di 2, 3 o 4 simboli."
+                                            ],
+                                            "RU": [
+                                                "Когда стопка символов оказывается на барабане, она может занимать две или более последовательных позиций по вертикали. Это означает, что один спин может привести к появлению нескольких экземпляров одного и того же символа на одном барабане. Эти символы обычно появляются группами из 2, 3 или 4 символов."
+                                            ],
+                                            "FR": [
+                                                "Lorsqu'un symbole empilé atterrit sur un rouleau, il peut occuper deux positions ou plus consécutives verticalement. Cela signifie qu'un seul tour peut entraîner plusieurs instances du même symbole, apparaissant sur un rouleau. Ces symboles apparaissent généralement par groupes de 2, 3 ou 4 symboles."
+                                            ],
+                                            "ZH": [
+                                                "当叠加符号落在卷轴上时，它可以垂直占据两个或更多连续位置。这意味着单个旋转可以导致同一符号的多个实例出现在一个卷轴上。这些符号通常以2、3或4个符号的组合出现。"
+                                            ],
+                                            "US": [
+                                                "When a stacked symbol lands on a reel, it can occupy two or more consecutive positions vertically. This means that a single pin can result in multiple instances of the same symbol, appearing in a reel. These symbols usually come in groups of 2,3 or 4 symbols."
+                                            ],
+                                            "PT": [
+                                                "Quando um símbolo empilhado pousa em um rolo, ele pode ocupar duas ou mais posições consecutivas verticalmente. Isso significa que uma única rodada pode resultar em várias instâncias do mesmo símbolo, aparecendo em um rolo. Esses símbolos geralmente vêm em grupos de 2, 3 ou 4 símbolos."
+                                            ]
+                                        },
+                                        "direction": "column",
+                                        "customFormat": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "typeDisplay": "flex",
+                                "direction": "row",
+                                "featureContent": [
+                                    {
+                                        "type": "img",
+                                        "imageType": "big",
+                                        "divMaxWith": "smallMaxWidth",
+                                        "url": [
+                                            "images/Settings/Assets/SUPER_STACK.png"
+                                        ],
+                                        "direction": "row"
+                                    },
+                                    {
+                                        "type": "plural_text",
+                                        "textAlignment": "center",
+                                        "content": {
+                                            "EN": [
+                                                "A SUPER STACK occurs when any symbol is heavily stacked. This can occur in any game phase. The SUPER STACK progresses accordingly with the chosen volatility:",
+                                                "LOW volatility: Features Stacks of Flash Gordon symbols.",
+                                                "MEDIUM volatility: Showcase stacks of Flash Gordon symbols and other symbol stacks.",
+                                                "HIGH volatility: Can have stacks of all symbols"
+                                            ],
+                                            "IT": [
+                                                "Una SUPER STACK si verifica quando un simbolo è pesantemente impilato. Questo può accadere in qualsiasi fase di gioco. La SUPER STACK progredisce di conseguenza con la volatilità scelta:",
+                                                "Volatilità BASSA: Caratteristiche Stack di simboli di Flash Gordon.",
+                                                "Volatilità MEDIA: Mostra stack di simboli di Flash Gordon e altri stack di simboli.",
+                                                "Volatilità ALTA: Può avere stack di tutti i simboli."
+                                            ],
+                                            "RU": [
+                                                "СУПЕР СТЭК происходит, когда какой-либо символ сильно накапливается. Это может происходить на любой фазе игры. СУПЕР СТЭК прогрессирует соответственно выбранной волатильности:",
+                                                "Низкая волатильность: Характеристики стеков символов Флэш Гордона.",
+                                                "Средняя волатильность: Показывает стеки символов Флэш Гордона и другие стеки символов.",
+                                                "Высокая волатильность: Может иметь стеки всех символов."
+                                            ],
+                                            "FR": [
+                                                "Un SUPER STACK se produit lorsqu'un symbole est fortement empilé. Cela peut se produire à n'importe quelle phase de jeu. Le SUPER STACK progresse en fonction de la volatilité choisie :",
+                                                "Volatilité FAIBLE : Caractéristiques Stacks de symboles Flash Gordon.",
+                                                "Volatilité MOYENNE : Affiche des stacks de symboles Flash Gordon et d'autres stacks de symboles.",
+                                                "Volatilité ÉLEVÉE : Peut avoir des stacks de tous les symboles."
+                                            ],
+                                            "ZH": [
+                                                "当任何符号被大量堆叠时，就会出现SUPER STACK。这可以在任何游戏阶段发生。SUPER STACK随所选择的波动性相应地发展：",
+                                                "低波动性：具有Flash Gordon符号的堆栈特征。",
+                                                "中等波动性：展示Flash Gordon符号和其他符号堆栈。",
+                                                "高波动性：可以有所有符号的堆栈。"
+                                            ],
+                                            "US": [
+                                                "A SUPER STACK occurs when any symbol is heavily stacked. This can occur in any game phase. The SUPER STACK progresses accordingly with the chosen volatility:",
+                                                "LOW volatility: Features Stacks of Flash Gordon symbols.",
+                                                "MEDIUM volatility: Showcase stacks of Flash Gordon symbols and other symbol stacks.",
+                                                "HIGH volatility: Can have stacks of all symbols"
+                                            ],
+                                            "PT": [
+                                                "Uma SUPER STACK ocorre quando qualquer símbolo é empilhado em grande quantidade. Isso pode ocorrer em qualquer fase do jogo. A SUPER STACK progride de acordo com a volatilidade escolhida:",
+                                                "Volatilidade BAIXA: Apresenta pilhas de símbolos do Flash Gordon.",
+                                                "Volatilidade MÉDIA: Mostra pilhas de símbolos do Flash Gordon e outras pilhas de símbolos.",
+                                                "Volatilidade ALTA: Pode ter pilhas de todos os símbolos."
+                                            ]
+                                        },
+                                        "direction": "column",
+                                        "customFormat": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": {
                     "EN": "FEATURES",
                     "RU": "FEATURES",
                     "FR": "FEATURES",
@@ -1685,7 +1807,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "bigMaxWidth",
+                                        "divMaxWith": "smallMaxWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -1698,25 +1820,25 @@
                                         "textAlignment": "center",
                                         "content": {
                                             "EN": [
-                                                "Substitutes all symbols, except the SCATTER and SUPER SCATTER symbol."
+                                                "Substitutes all symbols, except the SCATTER symbol."
                                             ],
                                             "IT": [
-                                                "Sostituisce tutti i simboli, tranne il simbolo SCATTER e SUPER SCATTER."
+                                                "Sostituisce tutti i simboli, tranne il simbolo SCATTER."
                                             ],
                                             "RU": [
-                                                "Заменѝет вѝе ѝимволы, кроме ѝимвола SCATTER и SUPER SCATTER."
+                                                "Заменѝет вѝе ѝимволы, кроме ѝимвола SCATTER."
                                             ],
                                             "FR": [
-                                                "Remplace tous les symboles, sauf le symbole SCATTER et SUPER SCATTER."
+                                                "Remplace tous les symboles, sauf le symbole SCATTER."
                                             ],
                                             "ZH": [
-                                                "替杢所有符坷，除了 SCATTER 和 SUPER SCATTER 符坷。"
+                                                "替杢所有符坷，除了 SCATTER。"
                                             ],
                                             "US": [
-                                                "Substitutes all symbols, except the SCATTER and SUPER SCATTER symbol."
+                                                "Substitutes all symbols, except the SCATTER."
                                             ],
                                             "PT": [
-                                                "Substitui todos os símbolos, exceto o símbolo SCATTER e SUPER SCATTER."
+                                                "Substitui todos os símbolos, exceto o símbolo SCATTER."
                                             ]
                                         },
                                         "direction": "column",
@@ -1731,7 +1853,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "bigMaxWidth",
+                                        "divMaxWith": "smallMaxWidth",
                                         "wrap": "wrap",
                                         "url": [
                                             "images/Settings/Symbol/10.png"
@@ -1746,25 +1868,25 @@
                                         "textAlignment": "center",
                                         "content": {
                                             "EN": [
-                                                "Landing 3,4 or 5 SCATTER symbols in base game awards 6,8 or 10 FREE SPINS, respectively.\n\nSUPER SCATTER only appears in the last reel and triggers the SUPER FREE SPINS."
+                                                "Flash's motorcycle has the ability to shoot randommly at symbols, converting them into WILD symbols."
                                             ],
                                             "IT": [
-                                                "Atterrando 3, 4 o 5 simboli SCATTER nel gioco base premia rispettivamente 6, 8 o 10 FREE SPINS. Il SUPER SCATTER appare solo nell'ultimo rullo e attiva le SUPER FREE SPINS."
+                                                "La motocicletta di Flash ha la capacità di sparare casualmente ai simboli, trasformandoli in simboli WILD."
                                             ],
                                             "RU": [
-                                                "Приз выиграют те, кто получит 3, 4 или 5 ѝимволов SCATTER в оѝновной игре и получит ѝоответѝтвенно 6, 8 или 10 FREE SPINS. SUPER SCATTER поѝвлѝетѝѝ только на поѝледнем барабане и запуѝкает SUPER FREE SPINS."
+                                                "Мотоцикл Флэша способен стрелять случайным образом по символам, превращая их в символы WILD."
                                             ],
                                             "FR": [
-                                                "L'obtention de 3, 4 ou 5 symboles SCATTER dans le jeu de base attribue respectivement 6, 8 ou 10 FREE SPINS. Le SUPER SCATTER n'apparaît que sur le dernier rouleau et déclenche les SUPER FREE SPINS."
+                                                "La moto de Flash a la capacité de tirer aléatoirement sur des symboles, les transformant en symboles WILD."
                                             ],
                                             "ZH": [
-                                                "在基本游戝中，分别获得3〝4或5个SCATTER符坷，奖励6〝8或10次FREE SPINS。SUPER SCATTER仅出现在最坎一个轴上，并触坑SUPER FREE SPINS。"
+                                                "Flash的摩托车有能力随机射击符号，将它们转换为WILD符号。"
                                             ],
                                             "US": [
-                                                "Landing 3,4 or 5 SCATTER symbols in base game awards 6,8 or 10 FREE SPINS, respectively. SUPER SCATTER only appears in the last reel and triggers the SUPER FREE SPINS."
+                                                "Flash's motorcycle has the ability to shoot randommly at symbols, converting them into WILD symbols."
                                             ],
                                             "PT": [
-                                                "Aterrar 3, 4 ou 5 símbolos SCATTER no jogo base concede 6, 8 ou 10 FREE SPINS, respectivamente. O SUPER SCATTER aparece apenas no último rolo e aciona as SUPER FREE SPINS."
+                                                "A motocicleta do Flash tem a capacidade de disparar aleatoriamente em símbolos, convertendo-os em símbolos WILD."
                                             ]
                                         },
                                         "direction": "column",
@@ -1778,13 +1900,13 @@
             },
             {
                 "Title": {
-                    "EN": "ENIGMATIC TOTEM",
-                    "RU": "ЗНГНДОЧНЫЙ ТОТЕМ",
-                    "FR": "TOTEM ÉNIGMATIQUE",
-                    "ZH": "神秘图腾",
-                    "US": "ENIGMATIC TOTEM",
-                    "PT": "TÓTEM ENIGMÝTICO",
-                    "IT": "TOTEM ENIGMATICO"
+                    "EN": "FLASH SPINS",
+                    "RU": "FLASH SPINS",
+                    "FR": "FLASH SPINS",
+                    "ZH": "FLASH SPINS",
+                    "US": "FLASH SPINS",
+                    "PT": "FLASH SPINS",
+                    "IT": "FLASH SPINS"
                 },
                 "sectionType": "Feature",
                 "Type": "Title",
@@ -1800,11 +1922,11 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "bigMaxWidth",
+                                        "divMaxWith": "smallMaxWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
-                                            "images/Settings/Assets/PAGE_1.png"
+                                            "images/Settings/Symbol/10.png"
                                         ],
                                         "direction": "row"
                                     }
@@ -1819,25 +1941,53 @@
                                         "textAlignment": "center",
                                         "content": {
                                             "EN": [
-                                                "The ENIGMATIC TOTEM can randomely substitute some symbols with WILD or SCATTER. He can also add MULTIPLIERS to the current WILDS on the reels."
+                                                "Lading 4 to 6 SCATTERS symbols in the main game, triggers the FLASH SPINS.",
+                                                "Depending on the number of SCATTERS, several SPECIAL REELS will be activated. WILD Symbols will only receive a multiplier if they land on these SPECIAL REELS.",
+                                                "4 SCATTERS will activate SPECIAL REELS 3 and 4.",
+                                                "5 SCATTERS will activate SPECIAL REELS 2 to 5.",
+                                                "6 SCATTERS activate all 6 SPECIAL REELS."
                                             ],
                                             "IT": [
-                                                "Il TOTEM ENIGMATICO può sostituire casualmente alcuni simboli con WILD o SCATTER. Può anche aggiungere MOLTIPLICATORI ai WILD attuali sui rulli."
+                                                "Atterrare 4-6 simboli SCATTER nel gioco principale, attiva le FLASH SPINS.",
+                                                "A seconda del numero di SCATTER, verranno attivati diversi rulli SPECIALI. I simboli WILD riceveranno un moltiplicatore solo se atterrano su questi rulli SPECIALI.",
+                                                "4 SCATTER attiveranno i rulli SPECIALI 3 e 4.",
+                                                "5 SCATTER attiveranno i rulli SPECIALI dal 2 al 5.",
+                                                "6 SCATTER attivano tutti e 6 i rulli SPECIALI."
                                             ],
                                             "RU": [
-                                                "Таинѝтвенный ТОТЕМ ѝлучайным образом может заменить некоторые ѝимволы на ДИКИЕ или СКЭТТЕРЫ. Он также может добавить МНОЖИТЕЛИ к текущим ДИКИМ на барабанах."
+                                                "При появлении от 4 до 6 символов SCATTER в основной игре запускаются FLASH SPINS.",
+                                                "В зависимости от количества символов SCATTER будут активированы различные СПЕЦИАЛЬНЫЕ БАРАБАНЫ. Символы WILD будут иметь множитель только при попадании на эти СПЕЦИАЛЬНЫЕ БАРАБАНЫ.",
+                                                "4 SCATTER активируют СПЕЦИАЛЬНЫЕ БАРАБАНЫ 3 и 4.",
+                                                "5 SCATTER активируют СПЕЦИАЛЬНЫЕ БАРАБАНЫ с 2 по 5.",
+                                                "6 SCATTER активируют все 6 СПЕЦИАЛЬНЫЕ БАРАБАНЫ."
                                             ],
                                             "FR": [
-                                                "Le TOTEM ÉNIGMATIQUE peut substituer aléatoirement certains symboles par WILD ou SCATTER. Il peut également ajouter des MULTIPLICATEURS aux WILDS actuels sur les rouleaux."
+                                                "L'obtention de 4 à 6 symboles SCATTERS dans le jeu principal déclenche les FLASH SPINS.",
+                                                "Selon le nombre de symboles SCATTERS, plusieurs ROULEAUX SPÉCIAUX seront activés. Les symboles WILD ne recevront un multiplicateur que s'ils atterrissent sur ces ROULEAUX SPÉCIAUX.",
+                                                "4 SCATTERS activeront les ROULEAUX SPÉCIAUX 3 et 4.",
+                                                "5 SCATTERS activeront les ROULEAUX SPÉCIAUX 2 à 5.",
+                                                "6 SCATTERS activent tous les 6 ROULEAUX SPÉCIAUX."
                                             ],
                                             "ZH": [
-                                                "神秘图腾坯以隝机将一些符坷替杢为WILD或SCATTER。他还坯以在轴上的当剝WILD上添加倝数。"
+                                                "在主游戏中，出现4到6个SCATTERS符号将触发FLASH SPINS。",
+                                                "根据SCATTERS的数量，将激活多个特殊轴。只有当WILD符号落在这些特殊轴上时，才会获得乘数。",
+                                                "4个SCATTERS将激活特殊轴3和4。",
+                                                "5个SCATTERS将激活特殊轴2到5。",
+                                                "6个SCATTERS将激活所有6个特殊轴。"
                                             ],
                                             "US": [
-                                                "The ENIGMATIC TOTEM can randomly substitute some symbols with WILD or SCATTER. He can also add MULTIPLIERS to the current WILDS on the reels."
+                                                "Lading 4 to 6 SCATTERS symbols in the main game, triggers the FLASH SPINS.",
+                                                "Depending on the number of SCATTERS, several SPECIAL REELS will be activated. WILD Symbols will only receive a multiplier if they land on these SPECIAL REELS.",
+                                                "4 SCATTERS will activate SPECIAL REELS 3 and 4.",
+                                                "5 SCATTERS will activate SPECIAL REELS 2 to 5.",
+                                                "6 SCATTERS activate all 6 SPECIAL REELS."
                                             ],
                                             "PT": [
-                                                "O TOTEM ENIGMÝTICO pode substituir aleatoriamente alguns símbolos por WILD ou SCATTER. Ele também pode adicionar MULTIPLICADORES aos WILDS atuais nos rolos."
+                                                "Aterrando de 4 a 6 símbolos SCATTERS no jogo principal, aciona as FLASH SPINS.",
+                                                "Dependendo do número de SCATTERS, vários ROLOS ESPECIAIS serão ativados. Os Símbolos WILD só receberão um multiplicador se caírem nesses ROLOS ESPECIAIS.",
+                                                "4 SCATTERS ativarão os ROLOS ESPECIAIS 3 e 4.",
+                                                "5 SCATTERS ativarão os ROLOS ESPECIAIS de 2 a 5.",
+                                                "6 SCATTERS ativam todos os 6 ROLOS ESPECIAIS."
                                             ]
                                         },
                                         "direction": "column",

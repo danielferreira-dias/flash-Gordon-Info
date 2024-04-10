@@ -511,217 +511,8 @@ function createNewSections(mainSection, subSection, subContainer) {
                     case "img_text":
                         contentDiv.classList.add("content-div-class-flex-img");
                         contentDiv.style.flexWrap = feature.wrap;
-
-                        feature.url.forEach((url) => {
-                            const contentDivImage = document.createElement("img");
-                            contentDivImage.src = url;
-                            contentDivImage.style.width = feature.url.length > 1 ? `calc(100% / ${feature.url.length})` : "auto";
-                            contentDivImage.classList.add(feature.divMaxWith);
-                            contentDiv.appendChild(contentDivImage);
-                        });
-
-                        const numberOfTextsDiv = document.createElement("div");
-                        numberOfTextsDiv.style.display = "flex"
-                        numberOfTextsDiv.style.flexDirection = feature.contentDirection
-
-                        // Right Div Parent
-                        const rightDivParent = document.createElement("div");
-                        rightDivParent.style.display = "flex";
-                        rightDivParent.style.flexDirection = "row";
-                        rightDivParent.style.flex = 1;
-
-                        // Right Div contains Multipliers
-                        const rightDivMultiplierCol = document.createElement("div");
-                        rightDivMultiplierCol.classList.add("list-container-left");
-
-                        // Right Div contains Values
-                        const rightDivValueCol = document.createElement("div");
-                        rightDivValueCol.classList.add("list-container-right");
-
-
-                        // Iterate over symbols and display multipliers, values, and special content
-                        if (feature.hasSpecialData == true) {
-                            feature.data.forEach((dataInfo) => {
-                                const listDiv = document.createElement("div");
-                                listDiv.classList.add("list-div");
-
-                                const multiplierText = document.createElement("p");
-                                multiplierText.classList.add("multiplier-symbol-value-text");
-                                multiplierText.innerText = dataInfo.multipliers;
-
-                                // Apply CSS to control text overflow
-                                multiplierText.style.overflow = "hidden";
-                                multiplierText.style.textOverflow = "ellipsis"; // or any other desired style
-
-                                listDiv.appendChild(multiplierText);
-                                rightDivMultiplierCol.appendChild(listDiv);
-
-                                const valueText = document.createElement("p");
-                                valueText.classList.add("symbol-value-text");
-                                if (dataInfo.value != "") {
-                                    valueText.innerText = dataInfo.value + '' + currentCurrency;
-                                } else {
-                                    valueText.innerText = dataInfo.value
-                                }
-
-                                // Apply CSS to control text overflow
-                                valueText.style.overflow = "hidden";
-                                valueText.style.textOverflow = "ellipsis"; // or any other desired style
-
-                                // Create a div to contain both value and special content
-                                const valueSpecialContentDiv = document.createElement("div");
-                                valueSpecialContentDiv.classList.add("value-special-content-div");
-
-                                // Append value text to the div
-                                valueSpecialContentDiv.appendChild(valueText);
-
-                                // Check if special content exists
-                                if (dataInfo.specialContent[0][currentLanguage] != null) {
-                                    const specialContentText = document.createElement("p");
-                                    specialContentText.classList.add("symbol-specialContent-text");
-                                    specialContentText.innerText = dataInfo.specialContent[0][currentLanguage];
-
-                                    // Apply CSS to control text overflow
-                                    specialContentText.style.overflow = "hidden";
-                                    specialContentText.style.textOverflow = "ellipsis"; // or any other desired style
-
-                                    // Append special content text to the div
-                                    valueSpecialContentDiv.appendChild(specialContentText);
-                                }
-
-                                // Append the div containing both value and special content to the column
-                                rightDivValueCol.appendChild(valueSpecialContentDiv);
-                            })
-                        }
-                        if (feature.hasSpecialData == true) {
-                            numberOfTextsDiv.appendChild(rightDivValueCol)
-
-                            // Append columns to parent
-                            rightDivParent.appendChild(rightDivMultiplierCol);
-                            rightDivParent.appendChild(rightDivValueCol);
-
-                            contentDiv.appendChild(rightDivParent)
-                        }
-
-                        break;
-
-                    case "text":
-                    case "plural_text":
-                        contentDiv.classList.add("content-div-class-flex-text");
-                        feature.content[currentLanguage].forEach((text) => {
-                            const textParagraph = document.createElement("p");
-                            textParagraph.textContent = text;
-                            contentDiv.appendChild(textParagraph);
-                        });
-                        break;
-
-                    case "divContent":
-                        contentDiv.classList.add("content-div-class-flex-div");
-                        const numberOfDivsContent = feature.numberOfDivs || 1;
-                        for (let i = 0; i < numberOfDivsContent; i++) {
-                            const borderDiv = document.createElement("div");
-
-                            const textArray = feature.divContentBorder[i];
-                            const borderText = document.createElement("p");
-
-                            borderText.textContent = textArray.contentInside;
-                            borderDiv.appendChild(borderText);
-                            contentDiv.appendChild(borderDiv);
-                        }
-                        break;
-                }
-
-                contentDiv.style.textAlign = feature.textAlignment;
-                singularDiv.appendChild(contentDiv);
-            });
-
-            subContainer.appendChild(singularDiv);
-        });
-    }
-
-    // Enter Words to Search based on current language
-    const wordsToSearch = ["FREE SPINS", "WILD"];
-    if (currentLanguage === "IT") wordsToSearch.push("Minima", "Massima");
-    searchDynamicParagraphs(wordsToSearch);
-}
-// Create Button Page
-function createButtonSection(section, subSection, subContainer) {
-
-    if (section.sectionType == 'Button') {
-        if (subSection.displayContent && Array.isArray(subSection.displayContent)) {
-            subSection.displayContent.forEach((contentDisplay) => {
-
-                const buttonContainerDiv = document.createElement("div");
-                buttonContainerDiv.classList.add('sub-container-grid-button-layout')
-
-                if (contentDisplay.Buttons && Array.isArray(contentDisplay.Buttons)) {
-                    contentDisplay.Buttons.forEach((button) => {
-
-                        const mainDivButton = document.createElement("div");
-                        mainDivButton.style.display = "flex"
-                        mainDivButton.style.flexDirection = "row"
-
-                        const buttonImage = document.createElement("img");
-                        buttonImage.src = button.img;
-                        buttonImage.style.width = '60%'
-
-                        const buttonDesc = document.createElement("p");
-                        buttonDesc.innerText = button.content[currentLanguage];
-
-                        const buttonDiv = document.createElement("div");
-                        buttonDiv.style.display = "flex"
-                        buttonDiv.style.flexDirection = "column"
-                        buttonDiv.style.justifyContent = "center"
-                        buttonDiv.style.alignItems = "center"
-                        buttonDiv.style.margin = " 10px 0px "
-                        buttonDiv.style.flex = '0 0 30%'
-                        buttonDesc.style.textAlign = 'left'
-
-                        const buttonDivText = document.createElement("div");
-                        buttonDivText.style.display = "flex"
-                        buttonDivText.style.flexDirection = "column"
-                        buttonDivText.style.justifyContent = "center"
-                        buttonDivText.style.margin = " 10px 0px "
-                        buttonDivText.style.flex = 1
-                        buttonDivText.style.textAlign = "left"
-
-                        buttonDiv.appendChild(buttonImage);
-                        buttonDivText.appendChild(buttonDesc);
-
-                        mainDivButton.appendChild(buttonDiv);
-                        mainDivButton.appendChild(buttonDivText);
-
-                        buttonContainerDiv.appendChild(mainDivButton)
-                    });
-                }
-
-                subContainer.appendChild(buttonContainerDiv);
-            });
-        }
-    }
-}
-
-// In case the game has buy bonus display the respective section
-function createbuyBonusSection(mainSection, subSection, subContainer) {
-    if (mainSection.sectionType === "BuyBonus" && gameHasBuyBonus == true) {
-        if (subSection.features && Array.isArray(subSection.features)) {
-            const singularDiv = document.createElement("div");
-            singularDiv.style.display = contentDisplay.typeDisplay;
-
-            if (contentDisplay.typeDisplay === "flex") {
-                singularDiv.style.maxWidth = "100%";
-                singularDiv.classList.add(contentDisplay.direction === "row" ? "singular-div-row" : "singular-div-column");
-            }
-
-            contentDisplay.featureContent.forEach((feature) => {
-                const contentDiv = document.createElement("div");
-                contentDiv.style.flexDirection = feature.direction;
-
-                switch (feature.type) {
-                    case "img":
-                    case "img_text":
-                        contentDiv.classList.add("content-div-class-flex-img");
-                        contentDiv.style.flexWrap = feature.wrap;
+                        contentDiv.style.flex = 1
+                        contentDiv.style.minWidth = "200px"
 
                         feature.url.forEach((url) => {
                             const contentDivImage = document.createElement("img");
@@ -828,8 +619,6 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                                 contentDiv.appendChild(document.createElement("br"));
                             }
                         });
-
-
                         break;
 
                     case "divContent":
@@ -853,6 +642,279 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
             });
 
             subContainer.appendChild(singularDiv);
+        });
+    }
+
+    // Enter Words to Search based on current language
+    const wordsToSearch = ["FREE SPINS", "WILD"];
+    if (currentLanguage === "IT") wordsToSearch.push("Minima", "Massima");
+    searchDynamicParagraphs(wordsToSearch);
+}
+// Create Button Page
+function createButtonSection(section, subSection, subContainer) {
+
+    if (section.sectionType == 'Button') {
+        if (subSection.displayContent && Array.isArray(subSection.displayContent)) {
+            subSection.displayContent.forEach((contentDisplay) => {
+
+                const buttonContainerDiv = document.createElement("div");
+                buttonContainerDiv.classList.add('sub-container-grid-button-layout')
+
+                if (contentDisplay.Buttons && Array.isArray(contentDisplay.Buttons)) {
+                    contentDisplay.Buttons.forEach((button) => {
+
+                        const mainDivButton = document.createElement("div");
+                        mainDivButton.style.display = "flex"
+                        mainDivButton.style.flexDirection = "row"
+
+                        const buttonImage = document.createElement("img");
+                        buttonImage.src = button.img;
+                        buttonImage.style.width = '60%'
+
+                        const buttonDesc = document.createElement("p");
+                        buttonDesc.innerText = button.content[currentLanguage];
+
+                        const buttonDiv = document.createElement("div");
+                        buttonDiv.style.display = "flex"
+                        buttonDiv.style.flexDirection = "column"
+                        buttonDiv.style.justifyContent = "center"
+                        buttonDiv.style.alignItems = "center"
+                        buttonDiv.style.margin = " 10px 0px "
+                        buttonDiv.style.flex = '0 0 30%'
+                        buttonDesc.style.textAlign = 'left'
+
+                        const buttonDivText = document.createElement("div");
+                        buttonDivText.style.display = "flex"
+                        buttonDivText.style.flexDirection = "column"
+                        buttonDivText.style.justifyContent = "center"
+                        buttonDivText.style.margin = " 10px 0px "
+                        buttonDivText.style.flex = 1
+                        buttonDivText.style.textAlign = "left"
+
+                        buttonDiv.appendChild(buttonImage);
+                        buttonDivText.appendChild(buttonDesc);
+
+                        mainDivButton.appendChild(buttonDiv);
+                        mainDivButton.appendChild(buttonDivText);
+
+                        buttonContainerDiv.appendChild(mainDivButton)
+                    });
+                }
+
+                subContainer.appendChild(buttonContainerDiv);
+            });
+        }
+    }
+}
+
+// In case the game has buy bonus display the respective section
+function createbuyBonusSection(mainSection, subSection, subContainer) {
+    if (mainSection.sectionType === "BuyBonus" && gameHasBuyBonus == true) {
+        if (subSection.features && Array.isArray(subSection.features)) {
+            subSection.features.forEach((contentDisplay) => {
+                const singularDiv = document.createElement("div");
+                singularDiv.style.display = contentDisplay.typeDisplay;
+                if (contentDisplay.typeDisplay === "flex") {
+                    singularDiv.style.maxWidth = "100%"
+                    if (contentDisplay.direction == "row") {
+                        singularDiv.classList.add("singular-div-row")
+                    } else {
+                        singularDiv.classList.add("singular-div-column")
+                    }
+                }
+                for (let j = 0; j < contentDisplay.featureContent.length; j++) {
+                    contentDiv = document.createElement("div");
+                    singularDiv.style.flexDirection = contentDisplay.direction;
+
+                    if (contentDisplay.featureContent[j].type === "img") {
+                        contentDiv.classList.add("content-div-class-flex-img");
+                        contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
+
+                        for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
+                            const contentDivImage = document.createElement("img");
+                            contentDivImage.src = contentDisplay.featureContent[j].url[i];
+                            let imageCount = contentDisplay.featureContent[j].url.length;
+                            if (imageCount > 1) {
+                                let imageWidth = `calc(100% / ${imageCount})`;
+                                contentDivImage.style.width = imageWidth;
+                            }
+                            if (contentDisplay.featureContent[j].divMaxWith == "bigMaxWidth") {
+                                contentDivImage.classList.add('bigMaxWidth')
+                            } else if (contentDisplay.featureContent[j].divMaxWith == "smallMaxWidth") {
+                                contentDivImage.classList.add('smallMaxWidth')
+                            }
+                            contentDiv.appendChild(contentDivImage);
+                        }
+                    } else if (contentDisplay.featureContent[j].type === "text") {
+                        contentDiv.classList.add("content-div-class-flex-text");
+                        const textParagraph = document.createElement("p");
+                        textParagraph.textContent = contentDisplay.featureContent[j].content[currentLanguage];
+
+                        contentDiv.appendChild(textParagraph);
+                    } else if (contentDisplay.featureContent[j].type === "plural_text") {
+                        for (let i = 0; i < contentDisplay.featureContent[j].content[currentLanguage].length; i++) {
+                            contentDiv.classList.add("content-div-class-flex-text");
+                            const textParagraph = document.createElement("p");
+                            textParagraph.textContent = contentDisplay.featureContent[j].content[currentLanguage][i];
+                            contentDiv.appendChild(textParagraph);
+                            // Add \n\n after each paragraph except the last one
+                            if (i < contentDisplay.featureContent[j].content[currentLanguage].length - 1) {
+                                singularDiv.appendChild(document.createElement("br"));
+                                singularDiv.appendChild(document.createElement("br"));
+                            }
+                        }
+                    } else if (contentDisplay.featureContent[j].type === "img_text") {
+                        contentDiv.classList.add("content-div-class-flex-img");
+                        contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
+
+                        for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
+                            const contentDivImage = document.createElement("img");
+                            contentDivImage.src = contentDisplay.featureContent[j].url[i];
+
+                            let imageCount = contentDisplay.featureContent[j].url.length;
+                            if (imageCount > 1) {
+                                let imageWidth = `calc(100% / ${imageCount})`;
+                                contentDivImage.style.width = imageWidth;
+                            }
+                            if (contentDisplay.featureContent[j].divMaxWith == "bigMaxWidth") {
+                                contentDivImage.classList.add('bigMaxWidth')
+                            } else if (contentDisplay.featureContent[j].divMaxWith == "smallMaxWidth") {
+                                contentDivImage.classList.add('smallMaxWidth')
+                            }
+                            contentDiv.appendChild(contentDivImage);
+                        }
+
+                        const numberOfTextsDiv = document.createElement("div");
+                        numberOfTextsDiv.style.display = "flex"
+                        numberOfTextsDiv.style.flexDirection = contentDisplay.featureContent[j].contentDirection
+
+                        // Right Div Parent
+                        const rightDivParent = document.createElement("div");
+                        rightDivParent.style.display = "flex";
+                        rightDivParent.style.flexDirection = "row";
+                        rightDivParent.style.flex = 1;
+
+                        // Right Div contains Multipliers
+                        const rightDivMultiplierCol = document.createElement("div");
+                        rightDivMultiplierCol.classList.add("list-container-left");
+
+                        // Right Div contains Values
+                        const rightDivValueCol = document.createElement("div");
+                        rightDivValueCol.classList.add("list-container-right");
+
+
+                        // Iterate over symbols and display multipliers, values, and special content
+                        if (contentDisplay.featureContent[j].hasSpecialData == true) {
+                            contentDisplay.featureContent[j].data.forEach((dataInfo) => {
+                                const listDiv = document.createElement("div");
+                                listDiv.classList.add("list-div");
+
+                                const multiplierText = document.createElement("p");
+                                multiplierText.classList.add("multiplier-symbol-value-text");
+                                multiplierText.innerText = dataInfo.multipliers;
+
+                                // Apply CSS to control text overflow
+                                multiplierText.style.overflow = "hidden";
+                                multiplierText.style.textOverflow = "ellipsis"; // or any other desired style
+
+                                listDiv.appendChild(multiplierText);
+                                rightDivMultiplierCol.appendChild(listDiv);
+
+                                const valueText = document.createElement("p");
+                                valueText.classList.add("symbol-value-text");
+                                if (dataInfo.value != "") {
+                                    valueText.innerText = dataInfo.value + '' + currentCurrency;
+                                } else {
+                                    valueText.innerText = dataInfo.value
+                                }
+
+                                // Apply CSS to control text overflow
+                                valueText.style.overflow = "hidden";
+                                valueText.style.textOverflow = "ellipsis"; // or any other desired style
+
+                                // Create a div to contain both value and special content
+                                const valueSpecialContentDiv = document.createElement("div");
+                                valueSpecialContentDiv.classList.add("value-special-content-div");
+
+                                // Append value text to the div
+                                valueSpecialContentDiv.appendChild(valueText);
+
+                                // Check if special content exists
+                                if (dataInfo.specialContent[0][currentLanguage] != null) {
+                                    const specialContentText = document.createElement("p");
+                                    specialContentText.classList.add("symbol-specialContent-text");
+                                    specialContentText.innerText = dataInfo.specialContent[0][currentLanguage];
+
+                                    // Apply CSS to control text overflow
+                                    specialContentText.style.overflow = "hidden";
+                                    specialContentText.style.textOverflow = "ellipsis"; // or any other desired style
+
+                                    // Append special content text to the div
+                                    valueSpecialContentDiv.appendChild(specialContentText);
+                                }
+
+                                // Append the div containing both value and special content to the column
+                                rightDivValueCol.appendChild(valueSpecialContentDiv);
+                            })
+                        }
+
+                        if (contentDisplay.featureContent[j].hasSpecialData == true) {
+                            numberOfTextsDiv.appendChild(rightDivValueCol)
+
+                            // Append columns to parent
+                            rightDivParent.appendChild(rightDivMultiplierCol);
+                            rightDivParent.appendChild(rightDivValueCol);
+
+                            contentDiv.appendChild(rightDivParent)
+                        }
+
+
+                    } else if (contentDisplay.featureContent[j].type == "divContent") {
+                        contentDiv.classList.add("content-div-class-flex-div");
+                        // Check if numberOfDivsContent is defined
+                        const numberOfDivsContent = contentDisplay.featureContent[j].numberOfDivs || 1;
+
+                        for (let i = 0; i < numberOfDivsContent; i++) {
+                            // Create a new div element for each iteration
+                            const borderDiv = document.createElement("div");
+
+                            // Apply CSS to the Borders
+                            borderDiv.style.borderStyle = "solid";
+                            borderDiv.style.margin = "10px";
+                            borderDiv.style.height = "150px";
+                            borderDiv.style.width = "150px";
+                            borderDiv.style.borderWidth = "5px";
+                            borderDiv.style.borderColor = "	#FFD700"
+
+                            // Apply Flexbox to align text vertically
+                            borderDiv.style.display = "flex";
+                            borderDiv.style.justifyContent = "center"; // Align horizontally
+                            borderDiv.style.alignItems = "center"; // Align vertically
+
+                            // Append the new div to the main contentDiv
+                            contentDiv.appendChild(borderDiv);
+
+                            // Access the text array for the current border div
+                            const textArray = contentDisplay.featureContent[j].divContentBorder[i];
+
+                            // Inside The Border Divs, Apply Text
+                            const borderText = document.createElement("p");
+                            borderText.style.fontSize = "1.0rem";
+                            borderText.style.textAlign = "center";
+
+                            borderText.textContent = textArray.contentInside;
+
+                            // Append the text to the current borderDiv
+                            borderDiv.appendChild(borderText);
+                        }
+                    }
+                    contentDiv.style.textAlign = contentDisplay.featureContent[j].textAlignment
+                    singularDiv.appendChild(contentDiv);
+                }
+
+                subContainer.appendChild(singularDiv);
+
+            });
         }
     }
 }
