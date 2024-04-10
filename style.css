@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Heading Section */
+
+.heading-section-div {
+    top: 0;
+    position: relative;
+    border: inset;
+    border-width: 0px 0px 1px 0px;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    padding: 0 5%;
+    z-index: 1000;
+    color: #ff0096;
+    border-color: #ff0096;
+    /* Adjust z-index as needed */
+}
+
+.heading-section-div h1 {
+    margin: 0px;
+}
+
+.heading-section h3 {
+    /* or inline-block */
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    /* Optional: Add some spacing between them */
+}
+
+/* Main Section */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: white;
+    background-color: #333;
+    overflow-x: hidden;
+}
+
+.symbol-section {
+    padding: 0 10%;
+    width: 100%;
+}
+
+.close-button {
+    position: fixed;
+    top: 10px; /* Adjust as needed */
+    right: 5px; /* Adjust as needed */
+    width: 30px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    background-color: red; /* Adjust color as needed */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    z-index: 9999;
+}
+
+.close-button img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #ff0096;
+}
+
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px;
+}
+
+li {
+    margin: 0.7rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.0rem;
+}
+
+/* Sub Container CSS*/
+
+.sub-container {
+    width: 80%;
+    border: 1px solid white;
+}
+
+.sub-container-flex {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+.sub-container-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    align-self: center;
+    width: 90%;
+}
+
+.sub-container-content-flex {
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem; */
+}
+
+/* Sub Container - Symbol Content - CSS*/
+
+p.sub-container-content-flex {
+    text-align: center;
+}
+
+.image-container-symbol {
+    flex: 0 0 30%;
+    height: 100%;
+    /* background-color: red; */
+    aspect-ratio: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.sub-container-content-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.list-container-left {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.list-container-right {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.value-special-content-div{
+    display: flex;
+}
+
+.multiplier-symbol-value-text {
+    color: #ff0096;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.symbol-value-text {
+    color: white;
+    margin: 0px;
+}
+
+.symbol-specialContent-text {
+    color: white;
+    margin: 0px;
+}
+
+.list-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+/* Sub Container - Line Content - CSS*/
+
+.sub-container-grid-line-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-self: center;
+    width: 90%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 550px) {
+
+    p {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) {
+    .sub-container-grid-line-layout {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sub-container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .sub-container-grid-line-layout {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .sub-container-grid-line-layout {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .sub-container-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+.line-layout-card {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 200px;
+    border-width: 1px;
+    border-style: dotted;
+}
+
+.line-layout-row {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid white; */
+    /* height: 40px; */
+
+}
+
+.line-layout-column {
+    width: 20%;
+    height: 0;
+    padding-bottom: 20%;
+    /* 20% to match the width for a square shape */
+    border: 1px solid white;
+    box-sizing: border-box;
+    position: relative;;
+
+}
+
+/* To ensure content inside the square */
+.line-layout-column>* {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.line-number {
+    font-size: 1.0rem;
+    font-weight: 900;
+}
+
+.line-layout-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+}
+
+.line-layout-text>p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Sub Container - Feature Section - CSS*/
+
+.singular-div-row {
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+    margin: 10px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.singular-div-column {
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: 30px 0px;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .singular-div-column {
+        flex-basis: 100%;
+        /* Force each child to take 100% width when screen is <= 600px */
+    }
+
+    .singular-div-row {
+        flex-basis: 100%;
+        /* Force each child to take 100% width when screen is <= 600px */
+    }
+}
+
+
+.content-div-class-flex-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-div-class-flex-text {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-div-class-flex-div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Image Section */
+
+.smallMaxWidth {
+    max-width: 70%;
+}
+
+.bigMaxWidth {
+    max-width: 75%;
+}
+
+@media (max-width: 600px) {
+    .smallMaxWidth{
+        max-width: 55%;
+    }
+    .bigMaxWidth {
+        max-width: 80%;
+    }
+}
+
+
+/* Button Section */
+
+.sub-container-grid-button-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-self: center;
+    align-items: center;
+    width: 90%;
+}
+
+.sub-container-grid-button-layout > p {
+    font-size: 1.2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+    .sub-container-grid-button-layout {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
