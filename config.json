@@ -2001,84 +2001,13 @@
             },
             {
                 "Title": {
-                    "EN": "FREE SPINS",
-                    "RU": "FREE SPINS",
-                    "FR": "FREE SPINS",
-                    "ZH": "FREE SPINS",
-                    "US": "FREE SPINS",
-                    "PT": "FREE SPINS",
-                    "IT": "FREE SPINS"
-                },
-                "sectionType": "Feature",
-                "Type": "Title",
-                "SubSection": [
-                    {
-                        "typeDisplay": "flex",
-                        "direction": "row",
-                        "justifyContent": "center",
-                        "features": [
-                            {
-                                "typeDisplay": "flex",
-                                "direction": "column",
-                                "featureContent": [
-                                    {
-                                        "type": "plural_text",
-                                        "textAlignment": "center",
-                                        "content": {
-                                            "EN": [
-                                                "In the base game, if you manage to land three or more SCATTER symbols, you'll activate the FREE SPINS round. The number of FREE SPINS you get depends on how many SCATTER symbols you land: 3 SCATTERS give you 6 FREE SPINS, 4 SCATTERS grant you 8, and if you're lucky enough to land 5, you'll receive 10 FREE SPINS.",
-                                                "Once the FREE SPINS round is triggered, you'll be taken to a new set of reels, this time you have more reel slots. During this round, you have the opportunity to land various MULTIPLIERS that can increase the value of your prizes. The total amount won during the FREE SPINS round will be awarded at the end.",
-                                                "Excitingly, there's a COLLECTOR feature in the game. This COLLECTOR has the ability to absorb and accumulate all the MULTIPLIERS that become visible on the reels during the FREE SPINS round. So, as you land MULTIPLIERS, the COLLECTOR stores them, potentially leading to even bigger rewards when the FREE SPINS conclude."
-                                            ],
-                                            "IT": [
-                                                "Nel gioco base, se riesci a ottenere tre o più simboli SCATTER, attiverai il round di FREE SPINS. Il numero di FREE SPINS che ottieni dipende da quanti simboli SCATTER atterri: 3 SCATTER ti danno 6 FREE SPINS, 4 SCATTER ti concedono 8, e se sei abbastanza fortunato da ottenere 5, riceverai 10 FREE SPINS.",
-                                                "Una volta attivato il round di FREE SPINS, sarai portato su un nuovo set di rulli, questa volta con più slot. Durante questo round, hai l'opportunità di ottenere vari MOLTIPLICATORI che possono aumentare il valore dei tuoi premi. L'importo totale vinto durante il round di FREE SPINS verrà assegnato alla fine.",
-                                                "In modo eccitante, c'è una funzione RACCOLTA nel gioco. Questo RACCOLTORE ha la capacità di assorbire e accumulare tutti i MOLTIPLICATORI che diventano visibili sui rulli durante il round di FREE SPINS. Quindi, mentre atterri MOLTIPLICATORI, il RACCOLTORE li conserva, potenzialmente portando a ricompense ancora più grandi quando i FREE SPINS terminano."
-                                            ],
-                                            "RU": [
-                                                "В оѝновной игре, еѝли вам удаѝтѝѝ получить три или более ѝимволов SCATTER, вы активируете раунд FREE SPINS. Количеѝтво FREE SPINS, которое вы получите, завиѝит от того, ѝколько ѝимволов SCATTER вы получите: 3 SCATTER дадут вам 6 FREE SPINS, 4 SCATTER предоѝтавѝт вам 8, а еѝли вы доѝтаточно удачливы, чтобы получить 5, вы получите 10 FREE SPINS.",
-                                                "Как только будет запущен раунд FREE SPINS, вы перейдете на новый набор барабанов, на ѝтот раз у ваѝ будет больше ѝчеек. В течение ѝтого раунда у ваѝ будет возможноѝть получить различные МНОЖИТЕЛИ, которые могут увеличить ѝтоимоѝть ваших призов. Общаѝ ѝумма, выиграннаѝ во времѝ раунда FREE SPINS, будет приѝуждена в конце.",
-                                                "Интереѝно, в игре еѝть функциѝ КОЛЛЕКТОР. Этот КОЛЛЕКТОР имеет ѝпоѝобноѝть поглощать и накапливать вѝе МНОЖИТЕЛИ, которые ѝтановѝтѝѝ видимыми на барабанах во времѝ раунда FREE SPINS. Таким образом, по мере того как вы получаете МНОЖИТЕЛИ, КОЛЛЕКТОР ѝохранѝет их, что может привеѝти к еще большим наградам по завершении FREE SPINS."
-                                            ],
-                                            "FR": [
-                                                "Dans le jeu de base, si vous parvenez à obtenir trois symboles SCATTER ou plus, vous activerez le tour de FREE SPINS. Le nombre de FREE SPINS que vous obtenez dépend du nombre de symboles SCATTER que vous obtenez : 3 SCATTER vous donnent 6 FREE SPINS, 4 SCATTER vous accordent 8, et si vous avez la chance d'obtenir 5, vous recevrez 10 FREE SPINS.",
-                                                "Une fois que le tour de FREE SPINS est déclenché, vous serez emmené sur un nouveau jeu de rouleaux, cette fois-ci avec plus de cases. Pendant ce tour, vous aurez l'opportunité d'obtenir divers MULTIPLICATEURS qui peuvent augmenter la valeur de vos prix. Le montant total gagné pendant le tour de FREE SPINS sera attribué à la fin.",
-                                                "De manière excitante, il y a une fonctionnalité COLLECTEUR dans le jeu. Ce COLLECTEUR a la capacité d'absorber et d'accumuler tous les MULTIPLICATEURS qui deviennent visibles sur les rouleaux pendant le tour de FREE SPINS. Ainsi, alors que vous obtenez des MULTIPLICATEURS, le COLLECTEUR les stocke, ce qui peut potentiellement conduire à des récompenses encore plus importantes lorsque les FREE SPINS se terminent."
-                                            ],
-                                            "ZH": [
-                                                "在基本游戝中，如果您戝功地获得三个或更多的SCATTER符坷，您将激活FREE SPINS轮。您获得的FREE SPINS的数針坖决于您获得的SCATTER符坷的数針：3个SCATTER给您6次FREE SPINS，4个SCATTER给您8次，如果您足够幸违地获得5个，则您将获得10次FREE SPINS。",
-                                                "一旦触坑了FREE SPINS轮，您将被带到一个新的轴组，这次您有更多的轴槽。在这一轮中，您有机会获得坄秝坯以增加奖励价值的多个增益器。在FREE SPINS轮结束时，获得的总金额将在最坎额坑。",
-                                                "令人兴奋的是，游戝中还有一个收集者功能。这个收集器有能力坸收和积累FREE SPINS轮期间在轴上坯觝的所有增益器。因此，当您获得增益器时，收集器会将它们存储起来，在FREE SPINS结束时坯能导致更大的奖励。"
-                                            ],
-                                            "US": [
-                                                "In the base game, if you manage to land three or more SCATTER symbols, you'll activate the FREE SPINS round. The number of FREE SPINS you get depends on how many SCATTER symbols you land: 3 SCATTERS give you 6 FREE SPINS, 4 SCATTERS grant you 8, and if you're lucky enough to land 5, you'll receive 10 FREE SPINS.",
-                                                "Once the FREE SPINS round is triggered, you'll be taken to a new set of reels, this time you have more reel slots. During this round, you have the opportunity to land various MULTIPLIERS that can increase the value of your prizes. The total amount won during the FREE SPINS round will be awarded at the end.",
-                                                "Excitingly, there's a COLLECTOR feature in the game. This COLLECTOR has the ability to absorb and accumulate all the MULTIPLIERS that become visible on the reels during the FREE SPINS round. So, as you land MULTIPLIERS, the COLLECTOR stores them, potentially leading to even bigger rewards when the FREE SPINS conclude."
-                                            ],
-                                            "PT": [
-                                                "No jogo base, se você conseguir aterrissar três ou mais símbolos SCATTER, você ativará o round de FREE SPINS. O número de FREE SPINS que você recebe depende de quantos símbolos SCATTER você aterrissa: 3 SCATTERS dão a você 6 FREE SPINS, 4 SCATTERS concedem 8, e se você tiver sorte o suficiente para aterrissar 5, você receberá 10 FREE SPINS.",
-                                                "Assim que o round de FREE SPINS for acionado, você será levado para um novo conjunto de rolos, desta vez com mais espaços. Durante este round, você tem a oportunidade de aterrissar vários MULTIPLICADORES que podem aumentar o valor dos seus prêmios. O valor total ganho durante o round de FREE SPINS será concedido no final.",
-                                                "Empolgantemente, há um recurso COLETOR no jogo. Este COLETOR tem a capacidade de absorver e acumular todos os MULTIPLICADORES que se tornam visíveis nos rolos durante o round de FREE SPINS. Então, enquanto você aterrissa MULTIPLICADORES, o COLETOR os armazena, potencialmente levando a recompensas ainda maiores quando os FREE SPINS terminam."
-                                            ]
-                                        },
-                                        "direction": "column",
-                                        "customFormat": ""
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Title": {
-                    "EN": "FREE SPINS",
-                    "RU": "FREE SPINS",
-                    "FR": "FREE SPINS",
-                    "ZH": "FREE SPINS",
-                    "US": "FREE SPINS",
-                    "PT": "FREE SPINS",
-                    "IT": "FREE SPINS"
+                    "EN": "SELEZIONE FLASH SPINS",
+                    "RU": "SELEZIONE FLASH SPINS",
+                    "FR": "SELEZIONE FLASH SPINS",
+                    "ZH": "SELEZIONE FLASH SPINS",
+                    "US": "SELEZIONE FLASH SPINS",
+                    "PT": "SELEZIONE FLASH SPINS",
+                    "IT": "SELEZIONE FLASH SPINS"
                 },
                 "sectionType": "Feature",
                 "Type": "Title",
@@ -2097,39 +2026,25 @@
                                         "textAlignment": "center",
                                         "content": {
                                             "EN": [
-                                                "Additionally, be on the lookout for the exclusive MYSTERY QUETZAL symbol during your gameplay! This unique symbol has two fantastic abilities: it can transform into a COLLECTOR, absorbing and accumulating all the MULTIPLIERS that become visible on the reels during the FREE SPINS round. As a result, you could end up with even greater rewards when the FREE SPINS conclude.",
-                                                "\n\nBut that's not all! The MYSTERY QUETZAL symbol also has the power to grant you an additional 2 FREE SPINS. So, not only does it help you collect MULTIPLIERS, but it also gives you extra opportunities to win.",
-                                                "\n\nPay attention to the main TOTTEM, it can give you a surprise and duplicate up to 3 existing COIN MULTIPLIERS on the screen, as well reveal some new ones."
+                                                "After a FLASH SPINS trigger, the player can choose among 5 different volatilities and a MYSTERY feature."
                                             ],
                                             "IT": [
-                                                "Inoltre, stai attento al simbolo esclusivo MYSTERY QUETZAL durante il tuo gioco! Questo simbolo unico ha due abilità fantastiche: può trasformarsi in un COLLETTORE, assorbendo e accumulando tutti i MOLTIPLICATORI che diventano visibili sui rulli durante il round di GIRO GRATIS. Di conseguenza, potresti finire con ricompense ancora più grandi quando i GIRO GRATIS terminano.",
-                                                "Ma non è tutto! Il simbolo MYSTERY QUETZAL ha anche il potere di concederti altri 2 GIRO GRATIS. Quindi, non solo ti aiuta a raccogliere MOLTIPLICATORI, ma ti offre anche opportunità extra per vincere.",
-                                                "Fai attenzione al TOTTEM principale, può darti una sorpresa e duplicare fino a 3 MOLTIPLICATORI DI MONETE esistenti sullo schermo, oltre a rivelarne di nuovi."
+                                                "Dopo l'atti"
                                             ],
                                             "RU": [
-                                                "Кроме того, обратите внимание на ѝкѝклюзивный ѝимвол MYSTERY QUETZAL во времѝ вашей игры! Этот уникальный ѝимвол обладает двумѝ фантаѝтичеѝкими ѝпоѝобноѝтѝми: он может превратитьѝѝ в СОБИРНТЕЛЯ, поглощаѝ и накапливаѝ вѝе МНОЖИТЕЛИ, которые ѝтановѝтѝѝ видимыми на барабанах во времѝ раунда FREE SPINS. В результате вы можете получить еще большие награды, когда FREE SPINS завершатѝѝ.",
-                                                "Но ѝто еще не вѝе! Символ MYSTERY QUETZAL также имеет ѝилу даровать вам дополнительные 2 FREE SPINS. Таким образом, он помогает не только ѝобирать МНОЖИТЕЛИ, но и дает вам дополнительные возможноѝти длѝ выигрыша.",
-                                                "Обратите внимание на оѝновной ТОТТЕМ, он может удивить ваѝ и удвоить до 3 ѝущеѝтвующих МНОЖИТЕЛЕЙ МОНЕТ на ѝкране, а также раѝкрыть новые."
+                                                "Когда стопка символов оказывается на барабане, она может занимать две или более последовательных позиций по вертикали. Это означает, что один спин может привести к появлению нескольких экземпляров одного и того же символа на одном барабане. Эти символы обычно появляются группами из 2, 3 или 4 символов."
                                             ],
                                             "FR": [
-                                                "De plus, gardez un œil sur le symbole exclusif MYSTERY QUETZAL pendant votre jeu ! Ce symbole unique a deux capacités fantastiques : il peut se transformer en un COLLECTEUR, absorbant et accumulant tous les MULTIPLICATEURS qui deviennent visibles sur les rouleaux pendant le tour de FREE SPINS. Par conséquent, vous pourriez obtenir des récompenses encore plus grandes lorsque les FREE SPINS se terminent.",
-                                                "Mais ce n'est pas tout ! Le symbole MYSTERY QUETZAL a également le pouvoir de vous accorder 2 FREE SPINS supplémentaires. Ainsi, il vous aide non seulement à collecter des MULTIPLICATEURS, mais vous offre également des opportunités supplémentaires de gagner.",
-                                                "Faites attention au TOTEM principal, il peut vous réserver une surprise et doubler jusqu'à 3 MULTIPLICATEURS DE PIÈCES existants à l'écran, ainsi que révéler de nouveaux."
+                                                "Lorsqu'un symbole empilé atterrit sur un rouleau, il peut occuper deux positions ou plus consécutives verticalement. Cela signifie qu'un seul tour peut entraîner plusieurs instances du même symbole, apparaissant sur un rouleau. Ces symboles apparaissent généralement par groupes de 2, 3 ou 4 symboles."
                                             ],
                                             "ZH": [
-                                                "此外，在游戝过程中覝密切注愝独特的神秘QUETZAL符坷＝这个独特的符坷有两个绝妙的能力：它坯以坘戝一个收集器，在FREE SPINS轮期间坸收和积累所有在轴上坯觝的增益器。因此，当FREE SPINS结束时，您坯能会获得更大的奖励。",
-                                                "但这还丝是全部＝神秘的QUETZAL符坷还有赝予您额外2次FREE SPINS的能力。因此，它丝仅帮助您收集增益器，还为您杝供额外的获胜机会。",
-                                                "注愝主覝的图腾，它坯能会给你一个惊喜，将现有屝幕上的最多3个硬帝乘数翻倝，并显示一些新的硬帝乘数。"
+                                                "当叠加符号落在卷轴上时，它可以垂直占据两个或更多连续位置。这意味着单个旋转可以导致同一符号的多个实例出现在一个卷轴上。这些符号通常以2、3或4个符号的组合出现。"
                                             ],
                                             "US": [
-                                                "Additionally, be on the lookout for the exclusive MYSTERY QUETZAL symbol during your gameplay! This unique symbol has two fantastic abilities: it can transform into a COLLECTOR, absorbing and accumulating all the MULTIPLIERS that become visible on the reels during the FREE SPINS round. As a result, you could end up with even greater rewards when the FREE SPINS conclude.",
-                                                "\n\nBut that's not all! The MYSTERY QUETZAL symbol also has the power to grant you an additional 2 FREE SPINS. So, not only does it help you collect MULTIPLIERS, but it also gives you extra opportunities to win.",
-                                                "\n\nPay attention to the main TOTTEM, it can give you a surprise and duplicate up to 3 existing COIN MULTIPLIERS on the screen, as well reveal some new ones."
+                                                "When a stacked symbol lands on a reel, it can occupy two or more consecutive positions vertically. This means that a single pin can result in multiple instances of the same symbol, appearing in a reel. These symbols usually come in groups of 2,3 or 4 symbols."
                                             ],
                                             "PT": [
-                                                "Além disso, fique atento ao símbolo exclusivo MYSTERY QUETZAL durante o seu jogo! Este símbolo único tem duas habilidades fantásticas: pode se transformar em um COLETOR, absorvendo e acumulando todos os MULTIPLICADORES que se tornam visíveis nos rolos durante o round de FREE SPINS. Como resultado, você poderia acabar com recompensas ainda maiores quando os FREE SPINS terminarem.",
-                                                "Mas isso não é tudo! O símbolo MYSTERY QUETZAL também tem o poder de conceder a você mais 2 FREE SPINS. Então, não só ajuda a coletar MULTIPLICADORES, mas também lhe dá oportunidades extras de ganhar.",
-                                                "Preste atenção no TOTTEM principal, ele pode lhe dar uma surpresa e duplicar até 3 MULTIPLICADORES DE MOEDA existentes na tela, além de revelar alguns novos."
+                                                "Quando um símbolo empilhado pousa em um rolo, ele pode ocupar duas ou mais posições consecutivas verticalmente. Isso significa que uma única rodada pode resultar em várias instâncias do mesmo símbolo, aparecendo em um rolo. Esses símbolos geralmente vêm em grupos de 2, 3 ou 4 símbolos."
                                             ]
                                         },
                                         "direction": "column",
@@ -2142,198 +2057,63 @@
                                 "direction": "row",
                                 "featureContent": [
                                     {
-                                        "type": "img_text",
-                                        "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
-                                        "url": [
-                                            "images/Settings/Assets/COIN.png"
-                                        ],
-                                        "textAlignment": "center",
-                                        "hasSpecialData": true,
-                                        "data": [
-                                            {
-                                                "multipliers": "",
-                                                "value": "",
-                                                "specialContent": [
-                                                    {
-                                                        "EN": [
-                                                            "Coin Symbols have a value of 1 - 500x bet"
-                                                        ],
-                                                        "IT": [
-                                                            "I simboli Coin hanno un valore di 1 - 500x la puntata"
-                                                        ],
-                                                        "RU": [
-                                                            "Монетные ѝимволы имеют ценноѝть от 1 до 500x ѝтавки"
-                                                        ],
-                                                        "FR": [
-                                                            "Les symboles de pièces ont une valeur de 1 à 500 fois la mise"
-                                                        ],
-                                                        "ZH": [
-                                                            "硬帝符坷的价值为1 - 500倝投注"
-                                                        ],
-                                                        "US": [
-                                                            "Coin Symbols have a value of 1 - 500x bet"
-                                                        ],
-                                                        "PT": [
-                                                            "Os símbolos de moeda têm um valor de 1 a 500 vezes a aposta"
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "direction": "column",
-                                        "contentDirection": "column"
-                                    },
-                                    {
                                         "type": "img",
                                         "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "bigMaxWidth",
                                         "url": [
-                                            "images/Settings/Assets/PLUS.png",
-                                            "images/Settings/Assets/NORMAL_BIRD.png"
+                                            "images/Settings/Assets/PRE_BONUS_UK.png"
                                         ],
                                         "direction": "row"
                                     },
-                                    {
-                                        "type": "img_text",
-                                        "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
-                                        "url": [
-                                            "images/Settings/Assets/SUPER_BIRD.png"
-                                        ],
-                                        "textAlignment": "center",
-                                        "hasSpecialData": true,
-                                        "data": [
-                                            {
-                                                "multipliers": "",
-                                                "value": "",
-                                                "specialContent": [
-                                                    {
-                                                        "EN": [
-                                                            "Only on SUPER FREE SPINS."
-                                                        ],
-                                                        "IT": [
-                                                            "Solo durante i SUPER FREE SPINS."
-                                                        ],
-                                                        "RU": [
-                                                            "Только во времѝ СУПЕР БЕСПЛНТНЫХ СПИНОВ."
-                                                        ],
-                                                        "FR": [
-                                                            "Uniquement pendant les SUPER FREE SPINS."
-                                                        ],
-                                                        "ZH": [
-                                                            "仅在超级兝费旋转时。"
-                                                        ],
-                                                        "US": [
-                                                            "Only on SUPER FREE SPINS."
-                                                        ],
-                                                        "PT": [
-                                                            "Apenas nos SUPER FREE SPINS."
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ],
-                                        "direction": "column",
-                                        "contentDirection": "column"
-                                    },
-                                    {
-                                        "type": "img",
-                                        "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
-                                        "url": [
-                                            "images/Settings/Assets/TOTEM.png"
-                                        ],
-                                        "direction": "row"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Title": {
-                    "EN": "FREE SPINS",
-                    "RU": "FREE SPINS",
-                    "FR": "FREE SPINS",
-                    "ZH": "FREE SPINS",
-                    "US": "FREE SPINS",
-                    "PT": "FREE SPINS",
-                    "IT": "FREE SPINS"
-                },
-                "sectionType": "Feature",
-                "Type": "Title",
-                "SubSection": [
-                    {
-                        "typeDisplay": "flex",
-                        "direction": "row",
-                        "justifyContent": "center",
-                        "features": [
-                            {
-                                "typeDisplay": "flex",
-                                "direction": "row",
-                                "featureContent": [
                                     {
                                         "type": "plural_text",
                                         "textAlignment": "center",
                                         "content": {
                                             "EN": [
-                                                "Additionally, be on the lookout for the exclusive MYSTERY QUETZAL symbol during your gameplay! This unique symbol has two fantastic abilities: it can transform into a COLLECTOR, absorbing and accumulating all the MULTIPLIERS that become visible on the reels during the FREE SPINS round. As a result, you could end up with even greater rewards when the FREE SPINS conclude.",
-                                                "\n\nBut that's not all! The MYSTERY QUETZAL symbol also has the power to grant you an additional 2 FREE SPINS. So, not only does it help you collect MULTIPLIERS, but it also gives you extra opportunities to win.",
-                                                "\n\nPay attention to the main TOTTEM, it can give you a surprise and duplicate up to 3 existing COIN MULTIPLIERS on the screen, as well reveal some new ones."
+                                                "- 25 FREE SPINS with 5x, 3x or 2x multipliers;\n- 20 FREE SPINS with 8x, 5x or 3x multipliers;\n- 15 FREE SPINS with 10x, 8x, or 5x multipliers;\n- 10 FREE SPINS with 15x, 10x, or 8x multipliers;\n- 5 FREE SPINS with 30x, 15x or 10x multipliers;\n- MYSTERY SPINS\n  The game will attribute a random number of:\n  -> Spins: 5, 10, 15, 20, 25.\n  -> Three multipliers: x2, x3, x5, x8, x10, x15, x30.",
+                                                "LOW volatility: Features Stacks of Flash Gordon symbols.",
+                                                "MEDIUM volatility: Showcase stacks of Flash Gordon symbols and other symbol stacks.",
+                                                "HIGH volatility: Can have stacks of all symbols"
                                             ],
                                             "IT": [
-                                                "Inoltre, stai attento al simbolo esclusivo MYSTERY QUETZAL durante il tuo gioco! Questo simbolo unico ha due abilità fantastiche: può trasformarsi in un COLLETTORE, assorbendo e accumulando tutti i MOLTIPLICATORI che diventano visibili sui rulli durante il round di GIRO GRATIS. Di conseguenza, potresti finire con ricompense ancora più grandi quando i GIRO GRATIS terminano.",
-                                                "Ma non è tutto! Il simbolo MYSTERY QUETZAL ha anche il potere di concederti altri 2 GIRO GRATIS. Quindi, non solo ti aiuta a raccogliere MOLTIPLICATORI, ma ti offre anche opportunità extra per vincere.",
-                                                "Fai attenzione al TOTTEM principale, può darti una sorpresa e duplicare fino a 3 MOLTIPLICATORI DI MONETE esistenti sullo schermo, oltre a rivelarne di nuovi."
+                                                "Una SUPER STACK si verifica quando un simbolo è pesantemente impilato. Questo può accadere in qualsiasi fase di gioco. La SUPER STACK progredisce di conseguenza con la volatilità scelta:",
+                                                "Volatilità BASSA: Caratteristiche Stack di simboli di Flash Gordon.",
+                                                "Volatilità MEDIA: Mostra stack di simboli di Flash Gordon e altri stack di simboli.",
+                                                "Volatilità ALTA: Può avere stack di tutti i simboli."
                                             ],
                                             "RU": [
-                                                "Кроме того, обратите внимание на ѝкѝклюзивный ѝимвол MYSTERY QUETZAL во времѝ вашей игры! Этот уникальный ѝимвол обладает двумѝ фантаѝтичеѝкими ѝпоѝобноѝтѝми: он может превратитьѝѝ в СОБИРНТЕЛЯ, поглощаѝ и накапливаѝ вѝе МНОЖИТЕЛИ, которые ѝтановѝтѝѝ видимыми на барабанах во времѝ раунда FREE SPINS. В результате вы можете получить еще большие награды, когда FREE SPINS завершатѝѝ.",
-                                                "Но ѝто еще не вѝе! Символ MYSTERY QUETZAL также имеет ѝилу даровать вам дополнительные 2 FREE SPINS. Таким образом, он помогает не только ѝобирать МНОЖИТЕЛИ, но и дает вам дополнительные возможноѝти длѝ выигрыша.",
-                                                "Обратите внимание на оѝновной ТОТТЕМ, он может удивить ваѝ и удвоить до 3 ѝущеѝтвующих МНОЖИТЕЛЕЙ МОНЕТ на ѝкране, а также раѝкрыть новые."
+                                                "СУПЕР СТЭК происходит, когда какой-либо символ сильно накапливается. Это может происходить на любой фазе игры. СУПЕР СТЭК прогрессирует соответственно выбранной волатильности:",
+                                                "Низкая волатильность: Характеристики стеков символов Флэш Гордона.",
+                                                "Средняя волатильность: Показывает стеки символов Флэш Гордона и другие стеки символов.",
+                                                "Высокая волатильность: Может иметь стеки всех символов."
                                             ],
                                             "FR": [
-                                                "De plus, gardez un œil sur le symbole exclusif MYSTERY QUETZAL pendant votre jeu ! Ce symbole unique a deux capacités fantastiques : il peut se transformer en un COLLECTEUR, absorbant et accumulant tous les MULTIPLICATEURS qui deviennent visibles sur les rouleaux pendant le tour de FREE SPINS. Par conséquent, vous pourriez obtenir des récompenses encore plus grandes lorsque les FREE SPINS se terminent.",
-                                                "Mais ce n'est pas tout ! Le symbole MYSTERY QUETZAL a également le pouvoir de vous accorder 2 FREE SPINS supplémentaires. Ainsi, il vous aide non seulement à collecter des MULTIPLICATEURS, mais vous offre également des opportunités supplémentaires de gagner.",
-                                                "Faites attention au TOTEM principal, il peut vous réserver une surprise et doubler jusqu'à 3 MULTIPLICATEURS DE PIÈCES existants à l'écran, ainsi que révéler de nouveaux."
+                                                "Un SUPER STACK se produit lorsqu'un symbole est fortement empilé. Cela peut se produire à n'importe quelle phase de jeu. Le SUPER STACK progresse en fonction de la volatilité choisie :",
+                                                "Volatilité FAIBLE : Caractéristiques Stacks de symboles Flash Gordon.",
+                                                "Volatilité MOYENNE : Affiche des stacks de symboles Flash Gordon et d'autres stacks de symboles.",
+                                                "Volatilité ÉLEVÉE : Peut avoir des stacks de tous les symboles."
                                             ],
                                             "ZH": [
-                                                "此外，在游戝过程中覝密切注愝独特的神秘QUETZAL符坷＝这个独特的符坷有两个绝妙的能力：它坯以坘戝一个收集器，在FREE SPINS轮期间坸收和积累所有在轴上坯觝的增益器。因此，当FREE SPINS结束时，您坯能会获得更大的奖励。",
-                                                "但这还丝是全部＝神秘的QUETZAL符坷还有赝予您额外2次FREE SPINS的能力。因此，它丝仅帮助您收集增益器，还为您杝供额外的获胜机会。",
-                                                "注愝主覝的图腾，它坯能会给你一个惊喜，将现有屝幕上的最多3个硬帝乘数翻倝，并显示一些新的硬帝乘数。"
+                                                "当任何符号被大量堆叠时，就会出现SUPER STACK。这可以在任何游戏阶段发生。SUPER STACK随所选择的波动性相应地发展：",
+                                                "低波动性：具有Flash Gordon符号的堆栈特征。",
+                                                "中等波动性：展示Flash Gordon符号和其他符号堆栈。",
+                                                "高波动性：可以有所有符号的堆栈。"
                                             ],
                                             "US": [
-                                                "Additionally, be on the lookout for the exclusive MYSTERY QUETZAL symbol during your gameplay! This unique symbol has two fantastic abilities: it can transform into a COLLECTOR, absorbing and accumulating all the MULTIPLIERS that become visible on the reels during the FREE SPINS round. As a result, you could end up with even greater rewards when the FREE SPINS conclude.",
-                                                "\n\nBut that's not all! The MYSTERY QUETZAL symbol also has the power to grant you an additional 2 FREE SPINS. So, not only does it help you collect MULTIPLIERS, but it also gives you extra opportunities to win.",
-                                                "\n\nPay attention to the main TOTTEM, it can give you a surprise and duplicate up to 3 existing COIN MULTIPLIERS on the screen, as well reveal some new ones."
+                                                "A SUPER STACK occurs when any symbol is heavily stacked. This can occur in any game phase. The SUPER STACK progresses accordingly with the chosen volatility:",
+                                                "LOW volatility: Features Stacks of Flash Gordon symbols.",
+                                                "MEDIUM volatility: Showcase stacks of Flash Gordon symbols and other symbol stacks.",
+                                                "HIGH volatility: Can have stacks of all symbols"
                                             ],
                                             "PT": [
-                                                "Além disso, fique atento ao símbolo exclusivo MYSTERY QUETZAL durante o seu jogo! Este símbolo único tem duas habilidades fantásticas: pode se transformar em um COLETOR, absorvendo e acumulando todos os MULTIPLICADORES que se tornam visíveis nos rolos durante o round de FREE SPINS. Como resultado, você poderia acabar com recompensas ainda maiores quando os FREE SPINS terminarem.",
-                                                "Mas isso não é tudo! O símbolo MYSTERY QUETZAL também tem o poder de conceder a você mais 2 FREE SPINS. Então, não só ajuda a coletar MULTIPLICADORES, mas também lhe dá oportunidades extras de ganhar.",
-                                                "Preste atenção no TOTTEM principal, ele pode lhe dar uma surpresa e duplicar até 3 MULTIPLICADORES DE MOEDA existentes na tela, além de revelar alguns novos."
+                                                "Uma SUPER STACK ocorre quando qualquer símbolo é empilhado em grande quantidade. Isso pode ocorrer em qualquer fase do jogo. A SUPER STACK progride de acordo com a volatilidade escolhida:",
+                                                "Volatilidade BAIXA: Apresenta pilhas de símbolos do Flash Gordon.",
+                                                "Volatilidade MÉDIA: Mostra pilhas de símbolos do Flash Gordon e outras pilhas de símbolos.",
+                                                "Volatilidade ALTA: Pode ter pilhas de todos os símbolos."
                                             ]
                                         },
-                                        "direction": "row",
+                                        "direction": "column",
                                         "customFormat": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "typeDisplay": "flex",
-                                "direction": "row",
-                                "featureContent": [
-                                    {
-                                        "type": "img_text",
-                                        "imageType": "big",
-                                        "divMaxWith": "bigMaxWidth",
-                                        "url": [
-                                            "images/Settings/Assets/SUPER_FREE_SPINS.png"
-                                        ],
-                                        "textAlignment": "center",
-                                        "hasSpecialData": false,
-                                        "direction": "row",
-                                        "contentDirection": "row"
                                     }
                                 ]
                             }
@@ -2343,13 +2123,13 @@
             },
             {
                 "Title": {
-                    "EN": "DOUBLE CHANCE",
-                    "RU": "DOUBLE CHANCE",
-                    "FR": "DOUBLE CHANCE",
-                    "ZH": "DOUBLE CHANCE",
-                    "US": "DOUBLE CHANCE",
-                    "PT": "DOUBLE CHANCE",
-                    "IT": "DOUBLE CHANCE"
+                    "EN": "SELEZIONE FLASH SPINS",
+                    "RU": "SELEZIONE FLASH SPINS",
+                    "FR": "SELEZIONE FLASH SPINS",
+                    "ZH": "SELEZIONE FLASH SPINS",
+                    "US": "SELEZIONE FLASH SPINS",
+                    "PT": "SELEZIONE FLASH SPINS",
+                    "IT": "SELEZIONE FLASH SPINS"
                 },
                 "sectionType": "Feature",
                 "Type": "Title",
@@ -2364,64 +2144,48 @@
                                 "direction": "row",
                                 "featureContent": [
                                     {
-                                        "type": "img_text",
+                                        "type": "img",
                                         "imageType": "big",
                                         "divMaxWith": "bigMaxWidth",
                                         "url": [
-                                            "images/Settings/Assets/DOUBLE_CHANCE.png"
+                                            "images/Settings/Assets/PRE_BONUS_UK.png"
                                         ],
-                                        "textAlignment": "center",
-                                        "hasSpecialData": false,
-                                        "direction": "row",
-                                        "contentDirection": "row"
-                                    }
-                                ]
-                            },
-                            {
-                                "typeDisplay": "flex",
-                                "direction": "row",
-                                "featureContent": [
+                                        "direction": "row"
+                                    },
                                     {
                                         "type": "plural_text",
                                         "textAlignment": "center",
                                         "content": {
                                             "EN": [
-                                                "The Player can select the option of DOUBLE CHANCE, paying 1.25x the bet, where the chance to win FREE SPINS naturally is doubled.",
-                                                "When this feature is enabled the BUY FREE SPINS and SUPER FREE SPINS feature is disabled.",
-                                                "RTP - 93,91%"
+                                                "At the beginning of each spin, a multiplier value is randomly drawn and visually displayed.",
+                                                "This multiplier will consistently overlay the WILD symbol if it lands on a SPECIAL REEL. However, the payout will only occur when a paying WAY intersects with the WILD symbol."
                                             ],
                                             "IT": [
-                                                "Il giocatore può selezionare l'opzione DOUBLE CHANCE, pagando 1,25 volte la puntata, dove la possibilità di vincere GIRO GRATIS naturalmente viene raddoppiata.",
-                                                "Quando questa funzione è attivata, la funzione ACQUISTA GIRO GRATIS e SUPER GIRO GRATIS viene disabilitata.",
-                                                "RTP - 93,91%"
+                                                "All'inizio di ogni giro, viene estratto casualmente un valore moltiplicatore e visualizzato.",
+                                                "Questo moltiplicatore sovrapporrà costantemente il simbolo WILD se atterra su un RULLO SPECIALE. Tuttavia, il pagamento avverrà solo quando un PERCORSO pagante interseca il simbolo WILD."
                                             ],
                                             "RU": [
-                                                "Игрок может выбрать опцию DOUBLE CHANCE, заплатив 1,25x ѝтавку, где шанѝ выиграть FREE SPINS удваиваетѝѝ.",
-                                                "Когда ѝта функциѝ включена, функциѝ ПОКУПКН FREE SPINS и SUPER FREE SPINS отключаетѝѝ.",
-                                                "RTP - 93,91%"
+                                                "В начале каждого спина случайным образом выбирается значение множителя и визуально отображается.",
+                                                "Этот множитель всегда будет наложен на символ WILD, если он попадет на СПЕЦИАЛЬНЫЙ БАРАБАН. Однако выплата произойдет только тогда, когда платный ПУТЬ пересечется со символом WILD."
                                             ],
                                             "FR": [
-                                                "Le joueur peut sélectionner l'option DOUBLE CHANCE, en payant 1,25 fois la mise, où la chance de gagner des FREE SPINS naturellement est doublée.",
-                                                "Lorsque cette fonctionnalité est activée, l'option ACHETER DES FREE SPINS et SUPER FREE SPINS est désactivée.",
-                                                "RTP - 93,91%"
+                                                "Au début de chaque rotation, une valeur de multiplicateur est tirée au hasard et affichée visuellement.",
+                                                "Ce multiplicateur se superposera systématiquement au symbole WILD s'il atterrit sur un ROULEAU SPÉCIAL. Cependant, le paiement ne se produira que lorsque un TRAJET payant croise le symbole WILD."
                                             ],
                                             "ZH": [
-                                                "玩家坯以选择坌倝机会的选项，支付1.25倝的赌注，这样自然获得兝费旋转的机会就加倝了。",
-                                                "当坯用此功能时，购买兝费旋转和超级兝费旋转功能将被禝用。",
-                                                "RTP - 93.91%"
+                                                "在每次旋转开始时，会随机抽取一个乘数值并以可视方式显示。",
+                                                "如果乘数落在特殊轴上，它将始终覆盖WILD符号。然而，只有在付费路径与WILD符号相交时才会发生支付。"
                                             ],
                                             "US": [
-                                                "The Player can select the option of DOUBLE CHANCE, paying 1.25x the bet, where the chance to win FREE SPINS naturally is doubled.",
-                                                "When this feature is enabled the BUY FREE SPINS and SUPER FREE SPINS feature is disabled.",
-                                                "RTP - 93.91%"
+                                                "At the beginning of each spin, a multiplier value is randomly drawn and visually displayed.",
+                                                "This multiplier will consistently overlay the WILD symbol if it lands on a SPECIAL REEL. However, the payout will only occur when a paying WAY intersects with the WILD symbol."
                                             ],
                                             "PT": [
-                                                "O jogador pode selecionar a opção de DUPLA CHANCE, pagando 1,25x a aposta, onde a chance de ganhar FREE SPINS naturalmente é duplicada.",
-                                                "Quando esta função está ativada, a opção COMPRAR FREE SPINS e FREE SPINS SUPER é desativada.",
-                                                "RTP - 93,91%"
+                                                "No início de cada rodada, um valor de multiplicador é sorteado aleatoriamente e visualmente exibido.",
+                                                "Este multiplicador irá sobrepor consistentemente o símbolo WILD se ele cair em um ROLO ESPECIAL. No entanto, o pagamento ocorrerá apenas quando um CAMINHO pagante interseccionar com o símbolo WILD."
                                             ]
                                         },
-                                        "direction": "row",
+                                        "direction": "column",
                                         "customFormat": ""
                                     }
                                 ]
@@ -2555,104 +2319,6 @@
                                                 "content": "RTP - 94,03%"
                                             }
                                         ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Title": {
-                    "EN": "HUNTER MODE",
-                    "RU": "HUNTER MODE",
-                    "FR": "HUNTER MODE",
-                    "ZH": "HUNTER MODE",
-                    "US": "HUNTER MODE",
-                    "PT": "HUNTER MODE",
-                    "IT": "HUNTER MODE"
-                },
-                "sectionType": "Feature",
-                "Type": "Title",
-                "SubSection": [
-                    {
-                        "typeDisplay": "flex",
-                        "direction": "column",
-                        "justifyContent": "center",
-                        "features": [
-                            {
-                                "typeDisplay": "flex",
-                                "direction": "column",
-                                "featureContent": [
-                                    {
-                                        "type": "img",
-                                        "divMaxWith": "bigMaxWidth",
-                                        "imageType": "big",
-                                        "wrap": "",
-                                        "url": [
-                                            "images/Settings/Assets/HUNTER_MODE.png"
-                                        ],
-                                        "direction": "row",
-                                        "valueType": "puntataMaxima",
-                                        "Type": "text",
-                                        "Text": "Puntata Maxima:",
-                                        "value": "5,00"
-                                    }
-                                ]
-                            },
-                            {
-                                "typeDisplay": "flex",
-                                "direction": "column",
-                                "featureContent": [
-                                    {
-                                        "type": "plural_text",
-                                        "textAlignment": "center",
-                                        "content": {
-                                            "EN": [
-                                                "HUNTER MODE is an enhanced and accelerated AUTOPLAY feature exclusively available in games developed by CRISTALTEC. This mode is designed to offer players a quicker and more intense gaming experience.",
-                                                "\n\nWhile in HUNTER MODE, the game utilizes the same game engine and logic as the regular gameplay, but the pace of the game is significantly faster. As a result of this increased speed, only the total winnings achieved per game round are displayed to the player. The detailed outcomes of individual spins or rounds are not shown.",
-                                                "\n\nWhen FREE SPINS are triggered the HUNTER MODE is stopped automatically and an input from the player is required to proceed to the FREE SPINS.",
-                                                "\n\nIt's worth noting that players have the flexibility to stop the HUNTER MODE at any moment during their gaming session. If they choose to do so, the total results of the current gaming session will be displayed after the ongoing game round is completed."
-                                            ],
-                                            "IT": [
-                                                "HUNTER MODE è una funzionalità di AUTOPLAY potenziata e accelerata disponibile esclusivamente nei giochi sviluppati da CRISTALTEC. Questa modalità è progettata per offrire ai giocatori un'esperienza di gioco più rapida e intensa.",
-                                                "Mentre è in modalità HUNTER, il gioco utilizza lo stesso motore di gioco e la stessa logica del gameplay regolare, ma il ritmo del gioco è significativamente più veloce. A causa di questa maggiore velocità, al giocatore vengono mostrate solo le vincite totali ottenute per round di gioco. Gli esiti dettagliati di singoli giri o round non vengono mostrati.",
-                                                "Quando vengono attivati i GIRO GRATIS, la modalità HUNTER viene interrotta automaticamente e è necessario un input da parte del giocatore per procedere ai GIRO GRATIS.",
-                                                "È importante notare che i giocatori hanno la flessibilità di interrompere la modalità HUNTER in qualsiasi momento durante la loro sessione di gioco. Se scelgono di farlo, i risultati totali della sessione di gioco attuale verranno visualizzati dopo che il round di gioco in corso è completato."
-                                            ],
-                                            "RU": [
-                                                "Режим ОХОТНИКН - ѝто улучшеннаѝ и уѝкореннаѝ функциѝ AUTOPLAY, доѝтупнаѝ иѝключительно в играх, разработанных CRISTALTEC. Этот режим предназначен длѝ предоѝтавлениѝ игрокам более быѝтрого и интенѝивного игрового опыта.",
-                                                "В режиме ОХОТНИКН игра иѝпользует тот же игровой движок и логику, что и в обычном геймплее, но темп игры значительно быѝтрее. В результате ѝтого увеличенной ѝкороѝти игры игроку отображаютѝѝ только общие выигрыши за каждый раунд игры. Подробные результаты отдельных вращений или раундов не отображаютѝѝ.",
-                                                "Когда активируютѝѝ БЕСПЛНТНЫЕ ВРНЩЕНИЯ, режим ОХОТНИКН автоматичеѝки оѝтанавливаетѝѝ, и требуетѝѝ ввод от игрока длѝ перехода к БЕСПЛНТНЫМ ВРНЩЕНИЯМ.",
-                                                "Следует отметить, что у игроков еѝть возможноѝть в любой момент оѝтановить режим ОХОТНИКН во времѝ ѝвоей игровой ѝеѝѝии. Еѝли они выберут ѝто ѝделать, общие результаты текущей игровой ѝеѝѝии будут отображены поѝле завершениѝ текущего раунда игры."
-                                            ],
-                                            "FR": [
-                                                "Le mode CHASSEUR est une fonctionnalité d'AUTOPLAY améliorée et accélérée disponible exclusivement dans les jeux développés par CRISTALTEC. Ce mode est conçu pour offrir aux joueurs une expérience de jeu plus rapide et intense.",
-                                                "En mode CHASSEUR, le jeu utilise le même moteur de jeu et la même logique que le gameplay régulier, mais le rythme du jeu est considérablement plus rapide. En raison de cette vitesse accrue, seuls les gains totaux réalisés par round de jeu sont affichés au joueur. Les résultats détaillés des tours ou des rounds individuels ne sont pas affichés.",
-                                                "Lorsque les FREE SPINS sont déclenchés, le mode CHASSEUR est automatiquement arrêté et une intervention du joueur est nécessaire pour passer aux FREE SPINS.",
-                                                "Il est à noter que les joueurs ont la possibilité d'arrêter le mode CHASSEUR à tout moment pendant leur session de jeu. S'ils choisissent de le faire, les résultats totaux de la session de jeu en cours seront affichés après la fin du round de jeu en cours."
-                                            ],
-                                            "ZH": [
-                                                "HUNTER MODE是CRISTALTEC开坑的游戝中独有的增强和加速的AUTOPLAY功能。该模弝旨在为玩家杝供更快节奝〝更激烈的游戝体验。",
-                                                "在HUNTER MODE中，游戝使用与常规游戝相坌的游戝引擎和逻辑，但游戝节奝明显更快。由于速度增加，玩家坪会看到毝个游戝回坈获得的总赢利。丝会显示坕个旋转或回坈的详细结果。",
-                                                "当触坑FREE SPINS时，HUNTER MODE会自动坜止，并需覝玩家的输入扝能继续进行FREE SPINS。",
-                                                "值得注愝的是，玩家坯以在游戝过程中隝时坜止HUNTER MODE。如果他们选择这样坚，当剝游戝会话的总结果将在当剝游戝回坈完戝坎显示。"
-                                            ],
-                                            "US": [
-                                                "HUNTER MODE is an enhanced and accelerated AUTOPLAY feature exclusively available in games developed by CRISTALTEC. This mode is designed to offer players a quicker and more intense gaming experience.",
-                                                "\n\nWhile in HUNTER MODE, the game utilizes the same game engine and logic as the regular gameplay, but the pace of the game is significantly faster. As a result of this increased speed, only the total winnings achieved per game round are displayed to the player. The detailed outcomes of individual spins or rounds are not shown.",
-                                                "\n\nWhen FREE SPINS are triggered the HUNTER MODE is stopped automatically and an input from the player is required to proceed to the FREE SPINS.",
-                                                "\n\nIt's worth noting that players have the flexibility to stop the HUNTER MODE at any moment during their gaming session. If they choose to do so, the total results of the current gaming session will be displayed after the ongoing game round is completed."
-                                            ],
-                                            "PT": [
-                                                "O modo HUNTER MODE é um recurso de AUTOPLAY aprimorado e acelerado, disponível exclusivamente em jogos desenvolvidos pela CRISTALTEC. Este modo foi projetado para oferecer aos jogadores uma experiência de jogo mais rápida e intensa.",
-                                                "Enquanto estiver no modo HUNTER MODE, o jogo utiliza o mesmo mecanismo de jogo e lógica do jogo regular, mas o ritmo do jogo é significativamente mais rápido. Como resultado dessa velocidade aumentada, apenas os ganhos totais alcançados por rodada de jogo são exibidos ao jogador. Os resultados detalhados de giros ou rodadas individuais não são mostrados.",
-                                                "Quando os GIROS GRÝTIS são acionados, o modo HUNTER MODE é interrompido automaticamente e é necessária uma entrada do jogador para prosseguir para os GIROS GRÝTIS.",
-                                                "Vale ressaltar que os jogadores têm a flexibilidade de interromper o modo HUNTER MODE a qualquer momento durante sua sessão de jogo. Se optarem por fazer isso, os resultados totais da sessão de jogo atual serão exibidos após a conclusão da rodada de jogo em andamento."
-                                            ]
-                                        },
-                                        "direction": "column",
-                                        "customFormat": ""
                                     }
                                 ]
                             }

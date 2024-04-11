@@ -610,6 +610,7 @@ function createNewSections(mainSection, subSection, subContainer) {
                     case "text":
                     case "plural_text":
                         contentDiv.classList.add("content-div-class-flex-text");
+                        contentDiv.style.minWidth = "200px"
                         feature.content[currentLanguage].forEach((text, index) => {
                             const textParagraph = document.createElement("p");
                             textParagraph.textContent = text;
@@ -714,6 +715,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
             subSection.features.forEach((contentDisplay) => {
                 const singularDiv = document.createElement("div");
                 singularDiv.style.display = contentDisplay.typeDisplay;
+
                 if (contentDisplay.typeDisplay === "flex") {
                     singularDiv.style.maxWidth = "100%"
                     if (contentDisplay.direction == "row") {
@@ -722,11 +724,14 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                         singularDiv.classList.add("singular-div-column")
                     }
                 }
+
                 for (let j = 0; j < contentDisplay.featureContent.length; j++) {
-                    contentDiv = document.createElement("div");
+
                     singularDiv.style.flexDirection = contentDisplay.direction;
 
                     if (contentDisplay.featureContent[j].type === "img") {
+
+                        contentDiv = document.createElement("div");
                         contentDiv.classList.add("content-div-class-flex-img");
                         contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
 
@@ -745,18 +750,20 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             }
                             contentDiv.appendChild(contentDivImage);
                         }
+                        singularDiv.appendChild(contentDiv);
                     } else if (contentDisplay.featureContent[j].type === "text") {
-                        contentDiv.classList.add("content-div-class-flex-text");
+                        singularDiv.classList.add("content-div-class-flex-text");
                         const textParagraph = document.createElement("p");
                         textParagraph.textContent = contentDisplay.featureContent[j].content[currentLanguage];
 
-                        contentDiv.appendChild(textParagraph);
+                        singularDiv.appendChild(textParagraph);
                     } else if (contentDisplay.featureContent[j].type === "plural_text") {
                         for (let i = 0; i < contentDisplay.featureContent[j].content[currentLanguage].length; i++) {
-                            contentDiv.classList.add("content-div-class-flex-text");
+                            singularDiv.classList.add("content-div-class-flex-text");
                             const textParagraph = document.createElement("p");
                             textParagraph.textContent = contentDisplay.featureContent[j].content[currentLanguage][i];
-                            contentDiv.appendChild(textParagraph);
+                            singularDiv.appendChild(textParagraph);
+
                             // Add \n\n after each paragraph except the last one
                             if (i < contentDisplay.featureContent[j].content[currentLanguage].length - 1) {
                                 singularDiv.appendChild(document.createElement("br"));
@@ -764,8 +771,9 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             }
                         }
                     } else if (contentDisplay.featureContent[j].type === "img_text") {
-                        contentDiv.classList.add("content-div-class-flex-img");
-                        contentDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
+                        singularDiv.classList.add("content-div-class-flex-img");
+                        singularDiv.style.flexWrap = contentDisplay.featureContent[j].wrap;
+                        singularDiv.style.flexDirection = contentDisplay.direction;
 
                         for (let i = 0; i < contentDisplay.featureContent[j].url.length; i++) {
                             const contentDivImage = document.createElement("img");
@@ -781,7 +789,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             } else if (contentDisplay.featureContent[j].divMaxWith == "smallMaxWidth") {
                                 contentDivImage.classList.add('smallMaxWidth')
                             }
-                            contentDiv.appendChild(contentDivImage);
+                            singularDiv.appendChild(contentDivImage);
                         }
 
                         const numberOfTextsDiv = document.createElement("div");
@@ -868,9 +876,10 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             contentDiv.appendChild(rightDivParent)
                         }
 
+                        singularDiv.appendChild(contentDiv);
 
                     } else if (contentDisplay.featureContent[j].type == "divContent") {
-                        contentDiv.classList.add("content-div-class-flex-div");
+                        singularDiv.classList.add("content-div-class-flex-div");
                         // Check if numberOfDivsContent is defined
                         const numberOfDivsContent = contentDisplay.featureContent[j].numberOfDivs || 1;
 
@@ -892,7 +901,7 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             borderDiv.style.alignItems = "center"; // Align vertically
 
                             // Append the new div to the main contentDiv
-                            contentDiv.appendChild(borderDiv);
+                            singularDiv.appendChild(borderDiv);
 
                             // Access the text array for the current border div
                             const textArray = contentDisplay.featureContent[j].divContentBorder[i];
@@ -908,8 +917,9 @@ function createbuyBonusSection(mainSection, subSection, subContainer) {
                             borderDiv.appendChild(borderText);
                         }
                     }
-                    contentDiv.style.textAlign = contentDisplay.featureContent[j].textAlignment
-                    singularDiv.appendChild(contentDiv);
+                    singularDiv.style.textAlign = contentDisplay.featureContent[j].textAlignment
+
+
                 }
 
                 subContainer.appendChild(singularDiv);
