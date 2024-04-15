@@ -1159,7 +1159,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "bigMaxWidth",
+                                        "divMaxWith": "screenWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -1529,7 +1529,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "150px",
                                         "url": [
                                             "images/Settings/Assets/LOW.png"
                                         ],
@@ -1572,7 +1572,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "150px",
                                         "url": [
                                             "images/Settings/Assets/MEDIUM.png"
                                         ],
@@ -1615,7 +1615,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "150px",
                                         "url": [
                                             "images/Settings/Assets/HIGH.png"
                                         ],
@@ -1721,7 +1721,7 @@
                                     {
                                         "type": "img",
                                         "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "url": [
                                             "images/Settings/Assets/SUPER_STACK.png"
                                         ],
@@ -1807,7 +1807,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -1853,7 +1853,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "wrap": "wrap",
                                         "url": [
                                             "images/Settings/Symbol/10.png"
@@ -1922,7 +1922,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -2059,7 +2059,7 @@
                                     {
                                         "type": "img",
                                         "imageType": "big",
-                                        "divMaxWith": "bigMaxWidth",
+                                        "divMaxWith": "screenWidth",
                                         "url": [
                                             "images/Settings/Assets/PRE_BONUS_UK.png"
                                         ],
@@ -2146,7 +2146,7 @@
                                     {
                                         "type": "img",
                                         "imageType": "big",
-                                        "divMaxWith": "bigMaxWidth",
+                                        "divMaxWith": "screenWidth",
                                         "url": [
                                             "images/Settings/Assets/PRE_BONUS_UK.png"
                                         ],
@@ -2215,11 +2215,11 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "column",
-                                "divMaxWith": "smallMaxWidth",
+                                "divMaxWith": "symbolWidth",
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "smallMaxWidth",
+                                        "divMaxWith": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "",
                                         "url": [
@@ -2236,7 +2236,6 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "column",
-                                "divMaxWith": "smallMaxWidth",
                                 "featureContent": [
                                     {
                                         "type": "plural_text",
@@ -2290,7 +2289,6 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "row",
-                                "divMaxWith": "smallMaxWidth",
                                 "featureContent": [
                                     {
                                         "type": "divContent",
