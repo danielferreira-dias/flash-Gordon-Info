@@ -1159,7 +1159,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "screenWidth",
+                                        "divMaxWidth": "screenWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -1529,7 +1529,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "150px",
+                                        "divMaxWidth": "featureWidth",
                                         "url": [
                                             "images/Settings/Assets/LOW.png"
                                         ],
@@ -1572,7 +1572,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "150px",
+                                        "divMaxWidth": "featureWidth",
                                         "url": [
                                             "images/Settings/Assets/MEDIUM.png"
                                         ],
@@ -1615,7 +1615,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "150px",
+                                        "divMaxWidth": "featureWidth",
                                         "url": [
                                             "images/Settings/Assets/HIGH.png"
                                         ],
@@ -1721,7 +1721,7 @@
                                     {
                                         "type": "img",
                                         "imageType": "big",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "url": [
                                             "images/Settings/Assets/SUPER_STACK.png"
                                         ],
@@ -1807,7 +1807,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -1853,7 +1853,7 @@
                                     {
                                         "type": "img_text",
                                         "imageType": "big",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "wrap": "wrap",
                                         "url": [
                                             "images/Settings/Symbol/10.png"
@@ -1922,7 +1922,7 @@
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "wrap",
                                         "url": [
@@ -2059,7 +2059,7 @@
                                     {
                                         "type": "img",
                                         "imageType": "big",
-                                        "divMaxWith": "screenWidth",
+                                        "divMaxWidth": "screenWidth",
                                         "url": [
                                             "images/Settings/Assets/PRE_BONUS_UK.png"
                                         ],
@@ -2146,7 +2146,7 @@
                                     {
                                         "type": "img",
                                         "imageType": "big",
-                                        "divMaxWith": "screenWidth",
+                                        "divMaxWidth": "screenWidth",
                                         "url": [
                                             "images/Settings/Assets/PRE_BONUS_UK.png"
                                         ],
@@ -2215,11 +2215,11 @@
                             {
                                 "typeDisplay": "flex",
                                 "direction": "column",
-                                "divMaxWith": "symbolWidth",
+                                "divMaxWidth": "symbolWidth",
                                 "featureContent": [
                                     {
                                         "type": "img",
-                                        "divMaxWith": "symbolWidth",
+                                        "divMaxWidth": "symbolWidth",
                                         "imageType": "big",
                                         "wrap": "",
                                         "url": [
